@@ -1,19 +1,20 @@
-Что такое Comsign
-=================
+What is Comsign
+===============
 
-| **Comsign** – это простой в использовании сервис, позволяющий в пару кликов создавать качественные вайты, помогающие не только проходить модерацию в рекламных сетях, но и увеличить срок жизни самой рекламной кампании. Алгоритмы генерации вайтов разработаны согласно спецификациям и анализу политик модерации в различных рекламных сетях. Автоматизация процесса создания вайтов гарантирует абсолютный учёт всевозможных факторов, в отличии от ручного формата верстки. Модули фильтрации контента, построения DOM-дерева и уникализации, всегда и точно предотвращают возникновение точек повышенного внимания со стороны модерации.
+| **Comsign** is an easy-to-use service that allows you to create high-quality safe pages in a few clicks, helping not only to pass moderation in advertising networks but also to increase the lifespan of the advertising campaign itself. The safe page generation algorithms are developed according to the specifications and analysis of moderation policies in various advertising networks. Automating the safe page creation process ensures absolute consideration of all possible factors, unlike manual layout formatting. Content filtering, DOM tree construction, and uniqueness modules always and accurately prevent the occurrence of points of increased attention from moderators.
 
-| Для этого достижения высоких результатов наши инструменты соответствуют всем основным параметрам и имеют функции, которые необходимы для успешной работы с рекламными сетями, а именно:
+| To achieve these high results, our tools meet all the main parameters and have features that are necessary for successful work with advertising networks, namely:
 
-* | **Дизайн и код, которые распознаются ботами как уникальный.**
+* | **Design and code that are recognized by bots as unique.**
 
-* | **Выбор из более чем 15 релевантных тем, при выборе которой подбирается наиболее релевантный и трастовый контент или возможность создать вайт на основе контента приложения.**
+* | **A choice of more than 15 relevant themes, from which the most relevant and trustworthy content is selected, or the ability to create a safe page based on application content.**
 
-* | **Выбор из более чем 60 языков для генерации контента. Список постоянно расширяется.** 
+* | **A choice of more than 60 languages for content generation. The list is constantly expanding.**
 
-* | **Возможность добавлять ключевые слова, которые интегрируются в вайт, повышая его уникальность и трастовость.**
+* | **The ability to add keywords that are integrated into the safe page, increasing its uniqueness and trustworthiness.**
 
-* | **Возможность добавлять домен, который интегрируется в tos&privacy вайта, повышая его уникальность и трастовость.**
+* | **The ability to add a domain that is integrated into the tos&privacy of the safe page, increasing its uniqueness and trustworthiness.**
 
-* | **Большое количество контента на вайте, благодаря чему страницы выглядят как полноценный сайт.**
+* | **A large amount of content on the safe page, making the pages look like a complete website.**
+
 
