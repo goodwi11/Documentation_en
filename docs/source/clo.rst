@@ -4,14 +4,14 @@ Adspect cloaking
 Overview
 --------
 
-Одним из неоспоримых преимуществ инструментов Comsign было и остаётся сотрудничество с Adspect – облачным сервисом, предназначенным для защиты онлайн-рекламных кампаний от нежелательного трафика. Благодаря данному сотрудничеству, можно не только использовать единый аккаунт в обоих интерфейсах, но также это позволяет сократить весь процесс интеграции клоаки со сгенерированной страницей до пары кликов, следуя нашей главной концепции - крайне просто и крайне эффективно. Все наши генераторы способны автоматически выполнять интеграцию потока в генерируемые страницы
+One of the undeniable advantages of Comsign tools has been and remains the collaboration with Adspect – a cloud service designed to protect online advertising campaigns from unwanted traffic. Thanks to this collaboration, not only can you use a single account in both interfaces, but it also allows you to reduce the entire process of cloaking integration with the generated page to a couple of clicks, following our main concept - extremely simple and extremely effective. All our generators are capable of automatically integrating the stream into the generated pages.
 
-Порядок работы следующий:
+The workflow is as follows:
 
-1. Создайте поток, указав в настройках белой страницы действие «Без действия».
+1. Create a stream, specifying the action "No action" in the safe page settings.
 
-2. Пропустите страницу с инструкциями по интеграции.
+2. Skip the page with integration instructions.
 
-3. В генераторе выберите поток для интеграции из списка и нажмите кнопку «Сгенерировать».
+3. In the generator, select the stream for integration from the list and click the "Generate" button.
 
-4. Если результат вас устраивает – нажмите кнопку «Скачать», для получения ZIP-архива с уже интегрированной клоакой. Далее остается лишь «распаковать» архив и расположить на вашем сервере.
+4. If the result suits you – click the "Download" button to get a ZIP archive with the already integrated cloak. Then you just need to "unpack" the archive and place it on your server.
