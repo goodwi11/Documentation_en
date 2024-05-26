@@ -1,32 +1,33 @@
-Рекомендации
-============
+Recommendations
+===============
 
-Общие рекомендации по работе с нашими инструментами, они универсальны для большинства наших пользователей. Мы настоятельно рекомендуем придерживаться их для достижения наилучших результатов с Comsign.
+General recommendations for working with our tools, which are universal for most of our users. We strongly recommend following them to achieve the best results with Comsign.
 
-Работа с генераторами
----------------------
+Working with generators
+-----------------------
 
-1. Используйте при генерации вайтов тему, наиболее релевантную теме вашего креатива. 
+1. When generating safe pages, use a theme that is most relevant to the theme of your creative.
 
-2. Всегда проверяйте сгенерированный вайт на наличие сомнительных, запрещенных или стоп-слов. Несмотря на то, что мы регулярно следим за качеством используемого контента, из-за специфики новостной повести в мире иногда такие слова имеют место быть, будьте внимательны.
+2. Always check the generated safe page for questionable, prohibited, or stop-words. Although we regularly monitor the quality of the content used, due to the nature of current events in the world, such words sometimes appear, so be vigilant.
 
-3. Проверяйте сгенерированный вайт на наличие изображений, которые включают в себя материал запрещенного или сомнительного характера. Несмотря на то, что мы регулярно следим за качеством используемого контента, из-за специфики новостной повести в мире иногда такие изображения имеют место быть, будьте внимательны.
+3. Check the generated safe page for images that contain prohibited or questionable material. Although we regularly monitor the quality of the content used, due to the nature of current events in the world, such images sometimes appear, so be vigilant.
 
-4. Не используйте одни и те же вайты несколько раз, будь то в разных рекламных кампаниях или в разных рекламных сетях. Несмотря на высокое качество наших вайтов, они являются одноразовыми, поэтому если вы уже где-либо использовали вайт, повторное использование не рекомендуется.
+4. Do not use the same safe pages multiple times, whether in different advertising campaigns or in different advertising networks. Despite the high quality of our safe pages, they are single-use, so if you have used a safe page somewhere before, repeated use is not recommended.
 
-5. Используйте ключевые слова при генерации вайтов. Они не только помогут подобрать наиболее релевантный контент под ваши нужды, но и повысят уникальность самого вайта, что положительно повлияет на прохождение модерации.
+5. Use keywords when generating safe pages. They will not only help select the most relevant content for your needs but also increase the uniqueness of the safe page itself, which will positively affect the moderation process.
 
-Выбор доменного имени и хостинга
---------------------------------
+Choosing a domain name and hosting
+----------------------------------
 
-1. Не используйте доменные имена в дешевых зонах, таких как site, .club, .world и т.п., потому что они привлекают повышенное внимание модераторов, а также антивирусных и скоринговых компаний. Фактически такие доменные имена находятся в зоне риска с самого момента их регистрации. Используйте только доменные зоны .org, .net и .com, в порядке предпочтительности.
+1. Do not use domain names in cheap zones, such as .site, .club, .world, etc., because they attract increased attention from moderators as well as antivirus and scoring companies. In fact, such domain names are at risk from the moment they are registered. Use only domain zones like .org, .net, and .com, in order of preference.
 
-2. Не используйте доменные имена, содержащие сомнительные или стоп-слова. Включите воображение, придумывайте доменные имена, которые выглядят и звучат как бренды.
+2. Do not use domain names that contain questionable or stop-words. Use your imagination to come up with domain names that look and sound like brands.
 
-3. Всегда используйте Cloudflare для сокрытия IP-адресов ваших серверов. Многие рекламные сети запоминают IP-адреса доменов в заблокированных аккаунтах, однако они никогда не забанят IP-адреса одной из крупнейших CDN-компаний, которая обслуживает 10 % всего Интернета.
+3. Always use Cloudflare to hide the IP addresses of your servers. Many advertising networks remember the IP addresses of domains in blocked accounts, but they will never ban the IP addresses of one of the largest CDN companies that serves 10% of the entire Internet.
 
-4. Не используйте технические домены хостинговых компаний. Они выглядят подозрительно и вместе с тем уникально идентифицируют отдельные серверы.
+4. Do not use technical domains of hosting companies. They look suspicious and uniquely identify individual servers.
 
-5. Всегда настраивайте HTTPS для ваших страниц. Cloudflare предоставляет бесплатные сертификаты SSL/TLS для доменных имен в режиме проксирования. Let’s Encrypt также предоставляет инфраструктуру для управления бесплатными сертификатами SSL/TLS.
+5. Always configure HTTPS for your pages. Cloudflare provides free SSL/TLS certificates for domain names in proxy mode. Let’s Encrypt also provides infrastructure for managing free SSL/TLS certificates.
 
-6. Рекомендуется использовать хостинг в непосредственной близости от целевой аудитории, в идеале в той же стране. Это особенно важно при работе с форматом popunder.
+6. It is recommended to use hosting in close proximity to the target audience, ideally in the same country. This is especially important when working with the popunder format.
+
