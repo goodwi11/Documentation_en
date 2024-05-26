@@ -1,23 +1,23 @@
 **SafePage Generator**
 ======================
 
-Обзор
------
+Overview
+--------
 
-| Данный инструмент является базовым генератором простых многостраничных новостных блогов на основе шаблонов и контент модуля, разработанных нашей командой. Вам предлагается выбрать тему контента из заранее составленного списка. Вы также можете выбрать язык для автоматического перевода текста на нужный вам.
-| Генерируемый контент рандомизируется по принципу модульной базы состоящей из сотни-различных вариантов, а полученные на выходе страницы успешно проходят модерацию на всех крупных рекламных сетях.
+| This tool is a basic generator of simple multi-page news blogs based on templates and a content module developed by our team. You are offered to choose the content theme from a precompiled list. You can also select the language for automatic translation of the text you need.
+| The generated content is randomized based on a modular database consisting of hundreds of different options, and the resulting pages successfully pass moderation on all major advertising networks.
 
-Как сгенерировать вайт
-----------------------
+How to generate a safe page
+----------------------------
 
-| 1. Выберите генератор SafePage на странице генерации и выберите тему из представленного списка в соответствующем поле "Тема", которая наиболее подходит под ваши ключевые слова или креатив.
+| 1. Select the SafePage generator on the generation page and choose a theme from the provided list in the corresponding "Theme" field that best suits your keywords or creative.
 
-| 2. Пропишите ключевые слова и доменное имя в соответствующие поля.
-| Например: *example keys, keys и example.com*
+| 2. Enter the keywords and domain name in the corresponding fields.
+| For example: *example keys, keys, and example.com*
 
-| 3. Нажмите кнопку «Сгенерировать», через некоторое время вам будет показан предпросмотр страницы. 
-| При желании вы можете сгенерировать вайт повторно, чтобы получить другой вариант дизайна и контента.
+| 3. Click the "Generate" button, and after some time, a preview of the page will be displayed to you.
+| If desired, you can regenerate the safe page to get a different design and content option.
 
-| 4. Нажмите кнопку «Скачать», чтобы получить ZIP-архив с готовым вайтом.
+| 4. Click the "Download" button to get a ZIP archive with the ready-made safe page.
 
-| 5. Распакуйте полученный ZIP-архив и разместите его на вашем сервере или хостинге.
+| 5. Unpack the received ZIP archive and place it on your server or hosting.
