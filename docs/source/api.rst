@@ -31,7 +31,7 @@ To generate a safe page (preview or ZIP archive), you need to send an HTTP GET r
 
    * - Required
      - Parameter
-     - Purpose
+     - Description
    * - Yes
      - ``product``
      -  | Generator selection:
