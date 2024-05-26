@@ -1,26 +1,26 @@
 GooglePlay Generator
 ====================
 
-Обзор
------
+Overview
+--------
 
-Данный генератор является универсальным инструментом для создания страниц на основе контента приложений из магазина Google Play. Дизайн и код 
-создает универсальные вайты, которые проходят модерацию в любых рекламных сетях. Вопреки названию, он подходит для любых рекламных кампаний, а не только для рекламы мобильных приложений. Генератор создает страницы которые могут быть использованы и для рекламы приложений из Google Play и как самостоятельная страница, которую можно использовать под любые вертикали и задачи. Вайты создаваемые генератором Google Play продвигают заведомо одобренные приложения, что гарантирует соответствие контента на странице рекламной политике и правилам любых рекламных сетей.
+This generator is a versatile tool for creating pages based on content from Google Play Store applications. The design and code create universal safe pages that pass moderation in any advertising networks. Despite its name, it is suitable for any advertising campaigns, not just for advertising mobile applications. The generator creates pages that can be used both for advertising Google Play applications and as standalone pages that can be used for any verticals and tasks. Safe pages created by the Google Play generator promote pre-approved applications, ensuring that the content on the page complies with the advertising policies and rules of any advertising network.
 
-Как сгенерировать вайт
-----------------------
+How to generate a safe page
+----------------------------
 
-| 1. Выберите приложение из `Google Play <https://play.google.com/store/games?hl=en&gl=US>`_ магазина, которое наиболее подходит под ваши ключевые слова или креатив и скопируйте URL-ссылку на выбранное приложение.
+| 1. Choose an application from the `Google Play <https://play.google.com/store/games?hl=en&gl=US>`_ store that best fits your keywords or creative, and copy the URL link to the selected application.
 
-| 2. Выберите генератор GooglePlay на странице генерации и вставьте скопированную ссылку в соответствующее поле "Ссылка на приложение".
-| Например: *https://play.google.com/store/apps/details?id=com.telegram*
+| 2. Select the GooglePlay generator on the generation page and paste the copied link into the corresponding "Application Link" field.
+| For example: *https://play.google.com/store/apps/details?id=com.telegram*
 
-| 3. Пропишите ключевые слова и доменное имя в соответствующие поля.
-| Например: *example keys, keys и example.com*
+| 3. Enter the keywords and domain name in the corresponding fields.
+| For example: *example keys, keys, and example.com*
 
-| 4. Нажмите кнопку «Сгенерировать», через некоторое время вам будет показан предпросмотр страницы. 
-| При желании вы можете сгенерировать вайт повторно, чтобы получить другой вариант дизайна и контента.
+| 4. Click the "Generate" button, and after some time, a preview of the page will be displayed to you.
+| If desired, you can regenerate the safe page to get a different design and content option.
 
-| 5. Нажмите кнопку «Скачать», чтобы получить ZIP-архив с готовым вайтом.
+| 5. Click the "Download" button to get a ZIP archive with the ready-made safe page.
 
-| 6. Распакуйте полученный ZIP-архив и разместите его на вашем сервере или хостинге.
+| 6. Unpack the received ZIP archive and place it on your server or hosting.
+
