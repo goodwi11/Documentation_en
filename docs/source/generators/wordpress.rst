@@ -1,61 +1,61 @@
 **WordPress Generator**
 =======================
 
-Обзор
------
+Overview
+--------
 
-Данный инструмент является классическим генератором многостраничных новостных блогов на основе шаблонов СMS WordPress и контент модуля, разработанного нашей командой и позволяющий подбирать наиболее релевантный и трастовый контент на каждую генерацию. Помимо этого, структура вайта собирается специальным алгоритмом, который обходит все известные триггеры модерации рекламных сетей.
+This tool is a classic generator of multi-page news blogs based on CMS WordPress templates and a content module developed by our team, allowing the selection of the most relevant and trustworthy content for each generation. Additionally, the white page structure is assembled by a special algorithm that bypasses all known moderation triggers of advertising networks.
 
-Дополнительный траст вайтам созданным при помощи этого генератора, является тот факт, что сайты на базе СMS WordPress широко распространены как на просторах интернета, так и в других рекламных кампаниях, таким образом HTML-код вайтов оказывается неотличим от кода сотен тысяч настоящих сайтов.
+Additional trust for white pages created with this generator is due to the fact that websites based on CMS WordPress are widely used across the internet and in other advertising campaigns. Thus, the HTML code of white pages is indistinguishable from the code of hundreds of thousands of real websites.
 
-Рекламным площадкам, таким как Google или Meta, сложно отличить вайт от обычного сатйа созданного на основе этой CMS от общей массы WordPress-сайтов, даже при помощи машинного обучения. Этот факт в купе с остальными технологиями  гарантирует высокую проходимость при модерации рекламных кампаний.
+Advertising platforms such as Google or Meta find it difficult to distinguish a white page from a regular site created using this CMS from the mass of WordPress sites, even with the help of machine learning. This fact, coupled with other technologies, guarantees high pass rates during the moderation of advertising campaigns.
 
-WordPress PHP версия отличается от WordPress HTML наличием полноценной эмуляции движка WordPress, а также эмуляцией базы данных и админ. панели.
-Так как мы используем модифицированную версию СMS WordPress, которая не требует установки на сервер и хостинг, а также работы с базой данных, только лишь строгое соответствие системным требованиям, с которыми можно ознакомиться ниже.
+The WordPress PHP version differs from the WordPress HTML version by having a full emulation of the WordPress engine, as well as an emulation of the database and admin panel.
+Since we use a modified version of CMS WordPress, which does not require installation on a server and hosting, nor working with a database, it only requires strict compliance with the system requirements, which can be found below.
 
-Системные требования для работы с WordPress PHP
--------------------------------------------------------
+System requirements for working with WordPress PHP
+--------------------------------------------------
 
-* Версия PHP должна быть не выше, чем 7.4 или 7.4.X.
+* The PHP version must be no higher than 7.4 or 7.4.X.
 
-* Установленный NGINX или Apache с модулем "mod_rewrite" (при использовании Apache, рекомендуется перевести PHP в режим **FastCGI).
+* Installed NGINX or Apache with the "mod_rewrite" module (when using Apache, it is recommended to switch PHP to FastCGI mode).
 
-* Установленное расширение PHP Data Objects (PDO).
+* Installed PHP Data Objects (PDO) extension.
 
-* Установленный драйвер PDO_SQLITE.
+* Installed PDO_SQLITE driver.
 
-.. important::
+.. attention::
 
- Файлы PHP вайта необходимо загружать на сервер или хостинг, только через FTP-клиент и размещать в корневой папке.
+ PHP white page files must be uploaded to the server or hosting only through an FTP client and placed in the root folder.
 
-Возможные ошибки и их решения
-------------------------------
-| 1. **There has been a critical error on this website** - данная ошибка свидетельствует лишь о том, что сервер или хостинг не соответствует системным требованиям и требованиям по размещению файлов. Дополнительно проверьте все настройки или обратитесь в службу поддержки вашего сервера или хостинга, чтобы вам могли точно адаптировать конфигурацию под наши требования.
+Possible errors and their solutions
+-----------------------------------
+| 1. **There has been a critical error on this website** - this error indicates that the server or hosting does not meet the system requirements and file placement requirements. Additionally, check all settings or contact your server or hosting support to adapt the configuration to our requirements.
 
-| 2. **Error establishing a database connection (данная ошибка не исключает проблем с системными требованиями).** 
-| При получении данной ошибки необходимо проверить следующее:
+| 2. **Error establishing a database connection (this error does not exclude problems with system requirements).**
+| If this error occurs, check the following:
 
- | *В zip файле -> /wp-include/version.php -> $wp_db_version = 51917*.
- | *В cpanel -> phpmyadmin -> table wp_options -> db_version*.
+ | *In the zip file -> /wp-include/version.php -> $wp_db_version = 51917*.
+ | *In cpanel -> phpmyadmin -> table wp_options -> db_version*.
 
- | *В zip файле -> /wp-include/version.php -> $wp_version = 6.0*.
- | *В cpanel -> phpmyadmin -> table wp_options -> wp_version*.
+ | *In the zip file -> /wp-include/version.php -> $wp_version = 6.0*.
+ | *In cpanel -> phpmyadmin -> table wp_options -> wp_version*.
 
-Версии в файлах вайта и на вашем сервере/хостинге должны совпадать.
-Если проблема останется или будет получена другая ошибка, то необходимо проверить сервер или хостинг на соответствие системным требованиям.
+The versions in the white page files and on your server/hosting must match.
+If the problem persists or another error is received, check the server or hosting for compliance with the system requirements.
 
-Как сгенерировать вайт
-----------------------
+How to generate a white page
+----------------------------
 
-| 1. Выберите генератор WordPress на странице генерации и выберите тему из представленного списка в соответствующем поле "Тема", которая наиболее подходит под ваши ключевые слова или креатив.
+| 1. Select the WordPress generator on the generation page and choose a theme from the provided list in the corresponding "Theme" field that best suits your keywords or creative.
 
-| 2. Пропишите ключевые слова и доменное имя в соответствующие поля.
-| Например: *example keys, keys и example.com*
+| 2. Enter the keywords and domain name in the corresponding fields.
+| For example: *example keys, keys, and example.com*
 
-| 3. Нажмите кнопку «Сгенерировать», через некоторое время вам будет показан предпросмотр страницы. 
-| При желании вы можете сгенерировать вайт повторно, чтобы получить другой вариант дизайна и контента.
+| 3. Click the "Generate" button, and after some time, a preview of the page will be displayed to you.
+| If desired, you can regenerate the white page to get a different design and content option.
 
-| 4. Нажмите кнопку «Скачать», чтобы получить ZIP-архив с готовым вайтом.
+| 4. Click the "Download" button to get a ZIP archive with the ready-made white page.
 
-| 5. Распакуйте полученный ZIP-архив и разместите его на вашем сервере или хостинге.
+| 5. Unpack the received ZIP archive and place it on your server or hosting.
 
