@@ -36,8 +36,8 @@ To generate a safe page (preview or ZIP archive), you need to send an HTTP GET r
      - ``product``
      -  | Generator selection:
         | ``sf`` – SafePage generator.
-        | ``gp`` – GooglePlay generator.
-        | ``ap`` – AppStore generator.
+        | ``gp`` – GooglePage generator.
+        | ``ap`` – ApplePage generator.
         | ``wp`` – WordPress (HTML) generator.
         | ``wp&php=1`` – WordPress (PHP) generator.
    * - Yes

@@ -1,4 +1,4 @@
-GooglePlay Generator
+GooglePage Generator
 ====================
 
 Overview
@@ -11,7 +11,7 @@ How to generate a safe page
 
 | 1. Choose an application from the `Google Play <https://play.google.com/store/games?hl=en&gl=US>`_ store that best fits your keywords or creative, and copy the URL link to the selected application.
 
-| 2. Select the GooglePlay generator on the generation page and paste the copied link into the corresponding "Application Link" field.
+| 2. Select the GooglePage generator on the generation page and paste the copied link into the corresponding "Application Link" field.
 | For example: *https://play.google.com/store/apps/details?id=com.telegram*
 
 | 3. Enter the keywords and domain name in the corresponding fields.
