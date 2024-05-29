@@ -180,76 +180,76 @@ Available Language Codes
 .. | Zulu - zu_ZA
 
 
-===============   ======
+================================  =======
 
-Language          Code
+Language                          Code
 
-===============   ======
-Albanian          sq_AL 
-Amharic           am_ET
-English           en_US
-Arabic            ar_SA
-Armenian          hy_AM
-Azerbaijani       az_AZ
-Belarusian        be_BY
-Bengali           bn_BD
-Burmese           my_MM
-Bulgarian         bg_BG
-Hungarian         hu_HU
-Vietnamese        vi_VN
-Dutch             nl_NL
-Greek             el_GR
-Georgian          ka_GE
-Guarani           gn_PY
-Danish            da_DK
-Zulu              zu_ZA
-Hebrew            he_IL
-Icelandic         is_IS
-Spanish           es_ES
-Italian           it_IT
-Irish             ga_IE
-Kazakh            kk_KZ
-Khmer             km_KH
-Chinese           zh_CH
-Korean            ko_KR
-Kyrgyz            ky_KG
-Lao               lo_LA
-Latvian           lv_LV
-Lithuanian        lt_LT
-Luxembourgish     lb_LU
-Macedonian        mk_MK
-Malay             ms_MY
-Maltese           mt_MT
-Mongolian         mn_MN
-German            de_DE
-Norwegian         no_NO
-Persian           fa_IR
-Polish            pl_PL
-Portuguese        pt_PT
-Punjabi           pa_IN
-Romanian          ro_RO
-Russian           ru_RU
-Serbian           sr_RS
-Swahili           sw_KE
-Swati             ss_SZ
-Slovenian         sl_SL
-Thai              th_TH
-Telugu            te_IN
-Turkish           tr_TR
-Turkmen           tk_TM
-Ukrainian         uk_UA
-Urdu              ur_PK
-Uzbek             uz_UZ
-Finnish           fi_FI
-French            fr_FR
-Hindi             hi_IN
-Croatian          hr_HR
-Czech             cs_CZ
-Swedish           sv_SE
-Estonian          et_EE
-Faroese           fo_FO
-Japanese          ja_JP
-===============   ======
+================================  =======
+Albanian (only for GP v2.0)        sq_AL 
+Amharic (only for GP v2.0)         am_ET
+English                            en_US
+Arabic                             ar_SA
+Armenian                           hy_AM
+Azerbaijani                        az_AZ
+Belarusian                         be_BY
+Bengali                            bn_BD
+Burmese (only for GP v2.0)         my_MM
+Bulgarian                          bg_BG
+Hungarian                          hu_HU
+Vietnamese                         vi_VN
+Dutch                              nl_NL
+Greek                              el_GR
+Georgian                           ka_GE
+Guarani (only for GP v2.0)         gn_PY
+Danish                             da_DK
+Zulu (only for GP v2.0)            zu_ZA
+Hebrew                             he_IL
+Icelandic                          is_IS
+Spanish                            es_ES
+Italian                            it_IT
+Irish                              ga_IE
+Kazakh                             kk_KZ
+Khmer (only for GP v2.0)           km_KH
+Chinese                            zh_CH
+Korean                             ko_KR
+Kyrgyz (only for GP v2.0)          ky_KG
+Lao (only for GP v2.0)             lo_LA
+Latvian                            lv_LV
+Lithuanian                         lt_LT
+Luxembourgish (only for GP v2.0)   lb_LU
+Macedonian                         mk_MK
+Malay                              ms_MY
+Maltese (only for GP v2.0)         mt_MT
+Mongolian                          mn_MN
+German                             de_DE
+Norwegian                          no_NO
+Persian (only for GP v2.0)         fa_IR
+Polish                             pl_PL
+Portuguese                         pt_PT
+Punjabi (only for GP v2.0)         pa_IN
+Romanian                           ro_RO
+Russian                            ru_RU
+Serbian                            sr_RS
+Swahili (only for GP v2.0)         sw_KE
+Swati (only for GP v2.0)           ss_SZ
+Slovenian                          sl_SL
+Thai                               th_TH
+Telugu (only for GP v2.0)          te_IN
+Turkish                            tr_TR
+Turkmen (only for GP v2.0)         tk_TM
+Ukrainian                          uk_UA
+Urdu (only for GP v2.0)            ur_PK
+Uzbek (only for GP v2.0)           uz_UZ
+Finnish                            fi_FI
+French                             fr_FR
+Hindi                              hi_IN
+Croatian                           hr_HR
+Czech                              cs_CZ
+Swedish                            sv_SE
+Estonian                           et_EE
+Faroese (only for GP v2.0)         fo_FO
+Japanese                           ja_JP
+================================  =======
 
 
 
