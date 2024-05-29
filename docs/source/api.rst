@@ -185,61 +185,61 @@ Available Language Codes
 Language                          Code
 
 ================================  =======
-Albanian (only for GP v2.0)        sq_AL 
-Amharic (only for GP v2.0)         am_ET
+Albanian (soon)                    sq_AL 
+Amharic (soon)                     am_ET
 English                            en_US
 Arabic                             ar_SA
 Armenian                           hy_AM
 Azerbaijani                        az_AZ
 Belarusian                         be_BY
 Bengali                            bn_BD
-Burmese (only for GP v2.0)         my_MM
+Burmese (soon)                     my_MM
 Bulgarian                          bg_BG
 Hungarian                          hu_HU
 Vietnamese                         vi_VN
 Dutch                              nl_NL
 Greek                              el_GR
 Georgian                           ka_GE
-Guarani (only for GP v2.0)         gn_PY
+Guarani (soon)                     gn_PY
 Danish                             da_DK
-Zulu (only for GP v2.0)            zu_ZA
+Zulu (soon)                        zu_ZA
 Hebrew                             he_IL
 Icelandic                          is_IS
 Spanish                            es_ES
 Italian                            it_IT
 Irish                              ga_IE
 Kazakh                             kk_KZ
-Khmer (only for GP v2.0)           km_KH
+Khmer (soon)                       km_KH
 Chinese                            zh_CH
 Korean                             ko_KR
-Kyrgyz (only for GP v2.0)          ky_KG
-Lao (only for GP v2.0)             lo_LA
+Kyrgyz (soon)                      ky_KG
+Lao (soon)                         lo_LA
 Latvian                            lv_LV
 Lithuanian                         lt_LT
-Luxembourgish (only for GP v2.0)   lb_LU
+Luxembourgish (soon)               lb_LU
 Macedonian                         mk_MK
 Malay                              ms_MY
-Maltese (only for GP v2.0)         mt_MT
+Maltese (soon)                     mt_MT
 Mongolian                          mn_MN
 German                             de_DE
 Norwegian                          no_NO
-Persian (only for GP v2.0)         fa_IR
+Persian (soon)                     fa_IR
 Polish                             pl_PL
 Portuguese                         pt_PT
-Punjabi (only for GP v2.0)         pa_IN
+Punjabi (soon)                     pa_IN
 Romanian                           ro_RO
 Russian                            ru_RU
 Serbian                            sr_RS
-Swahili (only for GP v2.0)         sw_KE
-Swati (only for GP v2.0)           ss_SZ
+Swahili (soon)                     sw_KE
+Swati (soon)                       ss_SZ
 Slovenian                          sl_SL
 Thai                               th_TH
-Telugu (only for GP v2.0)          te_IN
+Telugu (soon)                      te_IN
 Turkish                            tr_TR
-Turkmen (only for GP v2.0)         tk_TM
+Turkmen (soon)                     tk_TM
 Ukrainian                          uk_UA
-Urdu (only for GP v2.0)            ur_PK
-Uzbek (only for GP v2.0)           uz_UZ
+Urdu (soon)                        ur_PK
+Uzbek (soon)                       uz_UZ
 Finnish                            fi_FI
 French                             fr_FR
 Hindi                              hi_IN
@@ -247,7 +247,7 @@ Croatian                           hr_HR
 Czech                              cs_CZ
 Swedish                            sv_SE
 Estonian                           et_EE
-Faroese (only for GP v2.0)         fo_FO
+Faroese (soon)                     fo_FO
 Japanese                           ja_JP
 ================================  =======
 
