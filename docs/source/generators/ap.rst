@@ -14,6 +14,10 @@ How to generate a safe page
 | 2. Select the ApplePage generator on the generation page and paste the copied link into the corresponding "Application Link" field.
 | For example: *https://apps.apple.com/us/app/telegram-messenger/id686449807*
 
+.. important::
+ 
+ GEO of the link to application must match the selected safe page language.
+
 | 3. Enter the keywords and domain name in the corresponding fields.
 | For example: *example keys, keys, and example.com*
 
