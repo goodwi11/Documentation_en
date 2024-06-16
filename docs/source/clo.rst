@@ -9,10 +9,10 @@ One of the undeniable advantages of Comsign tools has been and remains the colla
 How to generate a safe page with cloaking stream
 ------------------------------------------------
 
-1. Create a stream, specifying the action "No action" in the safe page settings.
+| 1. Create a stream, specifying the action "No action" in the safe page settings.
 
-2. Skip the page with integration instructions.
+| 2. Skip the page with integration instructions.
 
-3. In the generator, select the stream for integration from the list and click the "Generate" button.
+| 3. In the generator, select the stream for integration from the list and click the "Generate" button.
 
-4. If the result suits you – click the "Download" button to get a ZIP archive with the already integrated cloak. Then you just need to "unpack" the archive and place it on your server.
+| 4. If the result suits you – click the "Download" button to get a ZIP archive with the already integrated cloak. Then you just need to "unpack" the archive and place it on your server.
