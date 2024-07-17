@@ -37,6 +37,7 @@ To generate a safe page (preview or ZIP archive), you need to send an HTTP GET r
      -  | Generator selection:
         | ``sf`` – SafePage generator.
         | ``gp`` – GooglePage generator.
+        | ``gp_v2`` – GooglePage v2.0 generator.
         | ``ap`` – ApplePage generator.
         | ``wp`` – WordPress (HTML) generator.
         | ``wp&php=1`` – WordPress (PHP) generator.
