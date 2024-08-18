@@ -33,4 +33,4 @@ Choosing a domain name and hosting
 
 .. important::
 
- Be aware that the success of passing ads review of your advertising campaign depends on many factors.
+ Be aware that the success of moderation of your advertising campaign depends not only on these recommendations.
