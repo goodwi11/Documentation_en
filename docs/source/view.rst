@@ -10,7 +10,7 @@ What is Comsign
 
 .. note::
 
- The automated process of creating whites guarantees fast and high-quality results regardless of time, unlike the manual layout format.
+ The automated process of safe page creation guarantees fast and high-quality results regardless of time, unlike the manual codding fromat.
 
 | Our safe page generators have all the necessary functions and capabilities to create a page exactly according to your ads campaign:
 
