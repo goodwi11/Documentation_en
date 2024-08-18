@@ -31,3 +31,6 @@ Choosing a domain name and hosting
 
 6. It is recommended to use hosting in close proximity to the target audience, ideally in the same country. This is especially important when working with the popunder format.
 
+.. important::
+
+ Be aware that the success of passing ads review of your advertising campaign depends on many factors.
