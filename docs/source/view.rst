@@ -4,20 +4,27 @@ Overview
 What is Comsign
 ---------------
 
-| `Comsign <https://www.comsign.io>`_ is an easy-to-use service that allows you to create high-quality safe pages in a few clicks, helping not only to pass moderation in advertising networks but also to increase the lifespan of the advertising campaign itself. The safe page generation algorithms are developed according to the specifications and analysis of moderation policies in various advertising networks. Automating the safe page creation process ensures absolute consideration of all possible factors, unlike manual layout formatting. Content filtering, DOM tree construction, and uniqueness modules always and accurately prevent the occurrence of points of increased attention from moderators.
+| `Comsign <https://www.comsign.io>`_ is an easy–to-use tool that allows you to quickly create full-fledged and high-quality websites that are passed ad review in any advertising networks (ex. Facebook, Google Maps, Bing Ads, Quora, X (Twitter), etc.), and will also help to extend the life of your advertising campaign.
 
-| To achieve these high results, our tools meet all the main parameters and have features that are necessary for successful work with advertising networks, namely:
+| Safe page generation algorithms, their content and visual design are designed to meet all the requirements and conditions for successful moderation as much as possible. We were based on an analysis of the moderation policy, the factors that most affect the success of the passage. Thanks to this, we were able to precisely develop and configure modules for content filtering, DOM tree construction and unicalization, which help minimize a increased attention from moderation.
 
-* | **Design and code that are recognized by bots as unique.**
+.. note::
 
-* | **A choice of more than 15 relevant themes, from which the most relevant and trustworthy content is selected, or the ability to create a safe page based on application content.**
+ The automated process of creating whites guarantees fast and high-quality results regardless of time, unlike the manual layout format.
 
-* | **A choice of more than 60 languages for content generation. The list is constantly expanding.**
+| Our safe page generators have all the necessary functions and capabilities to create a page exactly according to your ads campaign:
+
+* | **A choice of more than 15 themes on WordPress and SafePage generators, an endless selection of applications to generate on GooglePage and ApplePage generators.**
+
+* | **A choice of more than 60 languages for safe page translation. The list is constantly expanding.**
+
+* | **Design and code of each safe page are recognized by the bots of the moderation of advertising networks as unique.**
+
+* | **A large amount of content on the safe page, making the pages look like a complete website.**
 
 * | **The ability to add keywords that are integrated into the safe page, increasing its uniqueness and trustworthiness.**
 
-* | **The ability to add a domain that is integrated into the tos&privacy of the safe page, increasing its uniqueness and trustworthiness.**
+* | **The ability to add a domain that is integrated into the TOS&Privacy of the safe page, increasing its uniqueness and trustworthiness.**
 
-* | **A large amount of content on the safe page, making the pages look like a complete website.**
 
 
