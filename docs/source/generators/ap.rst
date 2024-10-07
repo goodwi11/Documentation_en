@@ -4,7 +4,7 @@ ApplePage Generator
 Overview
 --------
 
-The App Store generator creates universal safe pages that pass moderation in any advertising networks. Despite its name, it is suitable for any advertising campaigns, not just for advertising mobile applications. The generator creates pages that can be used both for advertising App Store applications and as standalone pages that can be used for any verticals and tasks.
+The App Store generator creates universal safe pages that pass moderation in any advertising networks. Despite its name, it is suitable for any advertising campaigns, not just for advertising mobile applications. The generator creates pages that can be used both for advertising App Store applications and as independent pages that can be used for any verticals and tasks.
 
 How to generate a safe page
 ----------------------------
