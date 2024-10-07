@@ -6,7 +6,7 @@ Overview
 
 | This generator is a versatile tool for creating pages based on content from Microsoft Store applications. The safe pages are specially adapted to pass ad review directly in the Bing Ads advertising network. At the same time, the design and code of the created pages are universal which allows you to use safe pages from this generator to pass ad review in other advertising networks.
 
-| Contrary its name it is suitable for any advertising campaigns, not just for advertising applications. The generator creates pages that can be used both for advertising Microsoft Store applications and as independent pages that can be used for any verticals and tasks. Safe pages created by the MicrosoftPage generator promote pre-approved applications, ensuring that the content on the page complies with the advertising policies and rules of any advertising network.
+| Contrary its name it is suitable for any advertising campaigns, not just for advertising applications. The generator creates pages that can be used both for advertising Microsoft Store applications and as independent pages that can be used for any verticals and tasks. Safe pages created by the MicrosoftPage generator promote pre-approved applications, ensuring that the content on the page complies with the advertising policies and rules of any advertising networks.
 
 How to generate a safe page
 ----------------------------

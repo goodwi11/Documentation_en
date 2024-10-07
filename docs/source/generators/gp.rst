@@ -6,7 +6,7 @@ Overview
 
 | This generator is a versatile tool for creating pages based on content from Google Play Store applications. The design and code create universal safe pages that pass ad review in any advertising networks. 
 
-| Contrary its name it is suitable for any advertising campaigns, not just for advertising mobile applications. The generator creates pages that can be used both for advertising Google Play applications and as independent pages that can be used for any verticals and tasks. Safe pages created by the GooglePage generator promote pre-approved applications, ensuring that the content on the page complies with the advertising policies and rules of any advertising network.
+| Contrary its name it is suitable for any advertising campaigns, not just for advertising mobile applications. The generator creates pages that can be used both for advertising Google Play applications and as independent pages that can be used for any verticals and tasks. Safe pages created by the GooglePage generator promote pre-approved applications, ensuring that the content on the page complies with the advertising policies and rules of any advertising networks.
 
 How to generate a safe page
 ----------------------------
