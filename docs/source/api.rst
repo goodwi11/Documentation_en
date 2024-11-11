@@ -62,7 +62,7 @@ To generate a safe page (preview or ZIP archive), you need to send an HTTP GET r
         | ``business``
         | ``economics``
         | ``entertainment``
-        | For Google Play and App Store generators, use the URL link to the app.
+        | For GooglePage, ApplePage and MicrosoftPage generators, use the URL link to the app.
    * - Yes
      - ``lang``
      - | Selecting the necessary language for the safe page translation. Specify in the format: language_COUNTRY.
