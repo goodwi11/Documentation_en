@@ -25,7 +25,8 @@ Despite Adspect's cloaking usability and automatic integration of safe pages wit
 
 | 1. Move the cloaking filter file to the safe page folder, e.g. *filter.php*
 
-| 2. Write the first line in the *index.html* file the name of your filter file as follows: ``<?php require *DIR*.'/filter.php'?>``
+| 2. Write the first line in the *index.html* file the name of your filter file as follows:
+| ``<?php require *DIR*.'/filter.php'?>``
 
 | 3. Rename the file *index.html* to *index.php*
 
