@@ -16,6 +16,9 @@ How to generate a safe page
 | 2. Select the GooglePage generator on the generation page and paste the copied link into the corresponding "Application Link" field.
 | For example: *https://play.google.com/store/apps/details?id=com.telegram*
 
+.. note::
+ When using the GooglePage v2 generator, you need to choose one of the pre-designed themes that have already collected themed applications.
+
 | 3. Enter the keywords and domain name in the corresponding fields.
 | For example: *example keys, keys, and example.com*
 
