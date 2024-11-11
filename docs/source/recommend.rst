@@ -10,7 +10,7 @@ Working with generators
 
 2. **Always use** keywords when generating safe pages. They will increase the uniqueness of the safe page itself and link it to your ads creative, which will positively affect the moderation process.
 
-3. **Always use** keywords when generating safe pages. Specified domain name will increase the uniqueness of the safe page itself and increase the quality of the whole ads campaign, which will positively affect the moderation process.
+3. **Always use** domain name when generating safe pages. Specified domain name will increase the uniqueness of the safe page itself and increase the quality of the whole ads campaign, which will positively affect the moderation process.
 
 4. **Do not use** the same safe pages multiple times, whether in different advertising campaigns or in different advertising networks. Despite the high quality of our safe pages, they are single-use, so if you have used a safe page somewhere before, repeated use is not recommended.
 
