@@ -8,8 +8,8 @@ Overview
 
 | Contrary its name it is suitable for any advertising campaigns, not just for advertising applications. The generator creates pages that can be used both for advertising Microsoft Store applications and as independent pages that can be used for any verticals and tasks. Safe pages created by the MicrosoftPage generator promote pre-approved applications, ensuring that the content on the page complies with the advertising policies and rules of any advertising networks.
 
-How to generate a safe page
-----------------------------
+How to Generate a Safe Page
+---------------------------
 
 | 1. Choose an application from the `Microsoft Store <https://apps.microsoft.com/apps?hl=en-en&gl=US>`_ store that best fits your keywords or creative, and copy the URL link to the selected application.
 

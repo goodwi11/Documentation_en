@@ -8,8 +8,8 @@ Overview
 
 | Contrary its name it is suitable for any advertising campaigns, not just for advertising mobile applications. The generator creates pages that can be used both for advertising Google Play applications and as independent pages that can be used for any verticals and tasks. Safe pages created by the GooglePage generator promote pre-approved applications, ensuring that the content on the page complies with the advertising policies and rules of any advertising networks.
 
-How to generate a safe page
-----------------------------
+How to Generate a Safe Page
+---------------------------
 
 | 1. Choose an application from the `Google Play <https://play.google.com/store/games?hl=en&gl=US>`_ store that best fits your keywords or creative, and copy the URL link to the selected application.
 

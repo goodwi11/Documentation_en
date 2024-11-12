@@ -1,5 +1,5 @@
-**SafePage Generator**
-======================
+SafePage Generator
+==================
 
 Overview
 --------
@@ -7,8 +7,8 @@ Overview
 | This tool is a basic generator of simple multi-page news blogs based on templates and a content module developed by our team. You are offered to choose the content theme from a precompiled list. You can also select the language for automatic translation of the text you need.
 | The generated content is randomized based on a modular database consisting of hundreds of different options, and the resulting pages successfully pass moderation on all major advertising networks.
 
-How to generate a safe page
-----------------------------
+How to Generate a Safe Page
+---------------------------
 
 | 1. Select the SafePage generator on the generation page and choose a theme from the provided list in the corresponding "Theme" field that best suits your keywords or creative.
 

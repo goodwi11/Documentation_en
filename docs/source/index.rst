@@ -8,6 +8,7 @@ Sections
 
    view
    recommend
+   setup
    generators/wordpress
    generators/safepage
    generators/gp

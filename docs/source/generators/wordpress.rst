@@ -1,5 +1,5 @@
-**WordPress Generator**
-=======================
+WordPress Generator
+===================
 
 Overview
 --------
@@ -13,7 +13,7 @@ Advertising platforms such as Google or Meta find it difficult to distinguish a 
 The WordPress PHP version differs from the WordPress HTML version by having a full emulation of the WordPress engine, as well as an emulation of the database and admin panel.
 Since we use a modified version of CMS WordPress, which does not require installation on a server and hosting, nor working with a database, it only requires strict compliance with the system requirements, which can be found below.
 
-System requirements for working with WordPress PHP
+System Requirements for Working with WordPress PHP
 --------------------------------------------------
 
 * PHP version must be no higher than 7.4 or 7.4.X.

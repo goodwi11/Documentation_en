@@ -1,7 +1,7 @@
-Cloaker integration
+Cloaker Integration
 ====================
 
-Adspect cloaking
+Adspect Cloaking
 ----------------
 
 One of the undeniable advantages of Comsign tools has been and remains the collaboration with Adspect – a cloud service designed to protect online advertising campaigns from unwanted traffic. Thanks to this collaboration, not only can you use a single account in both interfaces, but it also allows you to reduce the entire process of cloaking integration with the generated page to a couple of clicks, following our main concept - extremely simple and extremely effective. All our generators are capable of automatically integrating the stream into the generated pages.
@@ -16,7 +16,7 @@ One of the undeniable advantages of Comsign tools has been and remains the colla
 
 | 4. If the result suits you – click the "Download" button to get a ZIP archive with the already integrated cloak. Then you just need to "unpack" the archive and place it on your server.
 
-Other cloakers
+Other Cloakers
 --------------
 
 Despite Adspect's cloaking usability and automatic integration of safe pages with any stream, you always have the option to integrate our safe pages with any other cloaking manually using reverse PHP integration.
