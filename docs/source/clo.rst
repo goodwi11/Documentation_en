@@ -31,5 +31,5 @@ Despite Adspect's cloaking usability and automatic integration of safe pages wit
 | 3. Rename the file *index.html* to *index.php*
 
 .. note::
-     When manually integrating Adspect cloaking, you must also select **"Loacal file"** in the **"Action"** field in the stream settings.
+     When manually integrating Adspect cloaking, you must also select **"Local file"** in the **"Action"** field in the stream settings.
 
