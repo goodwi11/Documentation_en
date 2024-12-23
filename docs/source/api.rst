@@ -25,7 +25,7 @@ GET Parameters
 
 To generate a safe page (preview or ZIP archive), you need to send an HTTP GET request to the URL *https://api.comsign.io/v2*, specifying the generation settings in the URL parameters.
 
-.. list-table::
+.. list-table:: Main parameters to work with API
    :header-rows: 1
    :stub-columns: 1
 
@@ -36,43 +36,24 @@ To generate a safe page (preview or ZIP archive), you need to send an HTTP GET r
      - ``product``
      -  | Generator selection:
         | ``sf`` – SafePage generator.
+        | ``sf_v2`` – SafePage v2.0 generator.
         | ``gp`` – GooglePage generator.
         | ``gp_v2`` – GooglePage v2.0 generator.
         | ``ms`` – MicrosoftPage generator.
         | ``ap`` – ApplePage generator.
+        | ``as`` – AmazonPage generator.
         | ``wp`` – WordPress (HTML) generator.
         | ``wp&php=1`` – WordPress (PHP) generator.
    * - Yes
      - ``target``
      -  | Topic or URL to fill the safe with content.
-        | For WP and SF generators, you need to specify one of the available topics:
-        | ``beauty``
-        | ``travel``
-        | ``music``
-        | ``food``
-        | ``science``
-        | ``gaming``
-        | ``energy``
-        | ``news``
-        | ``sport``
-        | ``tech``
-        | ``world``
-        | ``finance``
-        | ``politics``
-        | ``business``
-        | ``economics``
-        | ``entertainment``
-        | For GooglePage, ApplePage and MicrosoftPage generators, use the URL link to the app.
+        | For WordPress and SafePage generators, you need to specify one of the available topics:
+        | For GooglePage, ApplePage, AmazonPage and MicrosoftPage generators use the URL link to the app or product (themes are also available for the GooglePage v2 generator).
+        | A list of available themes with codes is provided below.
    * - Yes
      - ``lang``
      - | Selecting the necessary language for the safe page translation. Specify in the format: language_COUNTRY.
        | A list of available languages with codes is provided below.
-   * - No
-     - ``keywords``
-     - | Keywords for integration into the safe page, specify separated by commas.
-   * - No
-     - ``domain``
-     - | Domain name for integration into TOS&Privacy, specify in the format: *https://example.com* or *example.com*.
    * - No
      - ``sid``
      - | Reverse PHP integration with Adspect cloaking.
@@ -87,33 +68,66 @@ To generate a safe page (preview or ZIP archive), you need to send an HTTP GET r
        | If the value is empty, the ``seed`` will be generated automatically.
        | If the value is not changed, the safe page template will be regenerated.
 
-.. - product - generator selection:
-..  * sf – SafePage generator.
-..  * gp – GooglePlay generator.
-..  * ap – AppStore generator.
-..  * wp – WordPress (HTML) generator.
-..  * wp&php=1 – WordPress (PHP) generator.
+.. list-table:: Additional parameters to work with API
+   :header-rows: 1
+   :stub-columns: 0
 
-.. - keywords – keywords for integration into the white, specify separated by commas.
+   * - Parameter
+     - Description
+   * - ``keywords``
+     - | Keywords to integrate into safe page, separate with commas.
+       | Example: **key,keys,keywords**
+   * - ``domain``
+     - | Domain name to integrate into TOS&Privacy.
+       | Example: **https://example.com** или **example.com**
+   * - ``company``
+     - | Company name to integrate into TOS&Privacy. 
+       | Example: **Stratton Oakmont**
+   * - ``phone``
+     - | Phone number to integrate into TOS&Privacy.
+       | Example: **1(800)999-99**
+   * - ``email``
+     - | Email to integrate into TOS&Privacy. 
+       | Example: **stratton.oak@mail.com** 
+   * - ``title``
+     - | Change header of a safe page.
+       | Example: **ExampleTitle**
+   * - ``index``
+     - | Change name of the index file.
+       | Example: **stratton**
+   * - ``ext``
+     - | Format of the index file extension, the default will be html.
+       | If Adspect flow integration is used, the format will be php.
+       | Example: **html** или **php**
+   * - ``redirect``
+     - | Parameter allows you to place links to redirect from buttons or form.
+       | Example: **https://exampleredirect.com**
+   * - ``redirect_form``
+     - | Parameter for redirection from forms.
+       | To activate it enter this value: **1** 
+   * - ``redirect_button``
+     - | Parameter for redirection from buttons.
+       | To activate it enter this value: **1**
+   * - ``pixel``
+     - | Parameter to place the pixel on a safe page.
+   * - ``head``
+     - | Parameter to place the code on a safe page in <head>.
+   * - ``body_start``
+     - | Parameter to place the code on a safe page after <body>.
+       | Example: **<div>example for body start<div>**
+   * - ``body_end``
+     - | Parameter to place the code on a safe page before <body>.
+       | Example: **<div>example for body end<div></div>**
 
-.. - domain – domain name for integration into TOS&Privacy, specify in the format *https://example.com* or *example.com*
+.. important:: 
+ If you insert code via ``head``, ``pixel``, ``body_start`` or ``body_end`` parameters, you must use URL encoding.
 
-.. - lang – selecting the necessary language for generation. Specify in the format: language_COUNTRY
-
-.. - seed – template generation number, a random set of letters or numbers. If the parameter value is empty, the seed will be generated automatically.
-
-.. - target – topic or URL to fill the white with content. For WP and SF generators, specify one of the available topics. For Google Play and App Store generators, use the URL link.
-
-.. - zip=true – a ZIP file with the white will be delivered. When this parameter is active, the download limit is charged. If the ``zip`` parameter is absent, a JPG preview will be delivered instead.
-
-.. - sid – parameter required for stream integration with cloaking. It extracts the filter.php file and writes index.php. To activate the parameter, substitute the stream_id key from the Adspect stream.
-
-Example of a relevant URL for working with the API::
+Example of a relevant URL to work with the API::
 
  https://api.comsign.io/v2?aid=2e2bbf52-adnc-5819-963c-8e0d48b26e9&keywords=example,keys&domain=example.com&lang=en_US&product=wp&sid=3eb2a9d3-9k93-3etc-ci88-ac1f6f92a854&target=food&zip=true
 
-Available Language Codes
-------------------------
+Codes of Available Languages
+----------------------------
 
 .. | Albanian - sq_AL
 .. | Amharic - am_ET
@@ -182,77 +196,104 @@ Available Language Codes
 .. | Zulu - zu_ZA
 
 
-================================  =======
+================================  =========
 
 Language                          Code
 
-================================  =======
-Albanian (soon)                    sq_AL 
-Amharic (soon)                     am_ET
-English                            en_US
-Arabic                             ar_SA
-Armenian                           hy_AM
-Azerbaijani                        az_AZ
-Belarusian                         be_BY
-Bengali                            bn_BD
-Burmese (soon)                     my_MM
-Bulgarian                          bg_BG
-Hungarian                          hu_HU
-Vietnamese                         vi_VN
-Dutch                              nl_NL
-Greek                              el_GR
-Georgian                           ka_GE
-Guarani (soon)                     gn_PY
-Danish                             da_DK
-Zulu (soon)                        zu_ZA
-Hebrew                             he_IL
-Icelandic                          is_IS
-Spanish                            es_ES
-Italian                            it_IT
-Irish                              ga_IE
-Kazakh                             kk_KZ
-Khmer (soon)                       km_KH
-Chinese                            zh_CH
-Korean                             ko_KR
-Kyrgyz (soon)                      ky_KG
-Lao (soon)                         lo_LA
-Latvian                            lv_LV
-Lithuanian                         lt_LT
-Luxembourgish (soon)               lb_LU
-Macedonian                         mk_MK
-Malay                              ms_MY
-Maltese (soon)                     mt_MT
-Mongolian                          mn_MN
-German                             de_DE
-Norwegian                          no_NO
-Persian (soon)                     fa_IR
-Polish                             pl_PL
-Portuguese                         pt_PT
-Punjabi (soon)                     pa_IN
-Romanian                           ro_RO
-Russian                            ru_RU
-Serbian                            sr_RS
-Swahili (soon)                     sw_KE
-Swati (soon)                       ss_SZ
-Slovenian                          sl_SL
-Thai                               th_TH
-Telugu (soon)                      te_IN
-Turkish                            tr_TR
-Turkmen (soon)                     tk_TM
-Ukrainian                          uk_UA
-Urdu (soon)                        ur_PK
-Uzbek (soon)                       uz_UZ
-Finnish                            fi_FI
-French                             fr_FR
-Hindi                              hi_IN
-Croatian                           hr_HR
-Czech                              cs_CZ
-Swedish                            sv_SE
-Estonian                           et_EE
-Faroese (soon)                     fo_FO
-Japanese                           ja_JP
-================================  =======
+================================  =========
+English                           ``en_US``
+Arabic                            ``ar_SA``
+Armenian                          ``hy_AM``
+Azerbaijani                       ``az_AZ``
+Belarusian                        ``be_BY``
+Bengali                           ``bn_BD``
+Bulgarian                         ``bg_BG``
+Hungarian                         ``hu_HU``
+Vietnamese                        ``vi_VN``
+Dutch                             ``nl_NL``
+Greek                             ``el_GR``
+Georgian                          ``ka_GE``
+Danish                            ``da_DK``
+Hebrew                            ``he_IL``
+Icelandic                         ``is_IS``
+Spanish                           ``es_ES``
+Italian                           ``it_IT``
+Irish                             ``ga_IE``
+Kazakh                            ``kk_KZ``
+Chinese                           ``zh_CH``
+Korean                            ``ko_KR``
+Latvian                           ``lv_LV``
+Lithuanian                        ``lt_LT``
+Macedonian                        ``mk_MK``
+Malay                             ``ms_MY``
+Mongolian                         ``mn_MN``
+German                            ``de_DE``
+Norwegian                         ``no_NO``
+Polish                            ``pl_PL``
+Portuguese                        ``pt_PT``
+Romanian                          ``ro_RO``
+Russian                           ``ru_RU``
+Serbian                           ``sr_RS``
+Slovenian                         ``sl_SL``
+Thai                              ``th_TH``
+Turkish                           ``tr_TR``
+Ukrainian                         ``uk_UA``
+Finnish                           ``fi_FI``
+French                            ``fr_FR``
+Hindi                             ``hi_IN``
+Croatian                          ``hr_HR``
+Czech                             ``cs_CZ``
+Swedish                           ``sv_SE``
+Estonian                          ``et_EE``
+Japanese                          ``ja_JP``
+================================  =========
 
+Codes of Available Themes
+-------------------------
+
+.. csv-table:: 
+   :header: "Codes for WordPress and SafePage", "Codes for SafePage v2", "Codes for GooglePage v2"
+   :width: 15%
+   :align: center
+
+   "``beauty``", ``travel``, ``Auto_Vehicles``
+   "``travel``", ``sport``, ``Business``
+   "``music``", ``beauty``, ``Video_Players``
+   "``food``", ``finance``, ``Food_Drink``
+   "``science``", ``dating``, ``House_Home``
+   "``gaming``", ``games``, ``Health_Fitness``
+   "``energy``", ``cars``, ``Dating``
+   "``news``", ``technologies``, ``Game``
+   "``sport``", ``fashion``, ``Game_Arcade``
+   "``tech``", ``music``, ``Game_Casual``
+   "``world``", ``activities``, ``Game_Card``
+   "``finance``", ``entertainment``, ``Game_Music``
+   "``politics``", ``health``, ``Game_Board``
+   "``business``", ``food``, ``Game_Puzzle``
+   "``economics``", ``education``, ``Game_Adventure``
+   "``entertainment``", ``estate``, ``Game_Sports``
+                  , ``fitness``, ``Game_Action``
+                  , ``commerce``, ``Tools``
+                  , , ``Art_Design``
+                  , , ``Maps_Navigation``
+                  , , ``Comics``
+                  , , ``Beauty``
+                  , , ``Medical``
+                  , , ``Events``
+                  , , ``Music_Audio``
+                  , , ``News_Magazines``
+                  , , ``Education``
+                  , , ``Personalization``
+                  , , ``Weather``
+                  , , ``Productivity``
+                  , , ``Travel_Local``
+                  , , ``Entertainment``
+                  , , ``Communication``
+                  , , ``Social``
+                  , , ``Sports``
+                  , , ``Finance``
+                  , , ``Photography``
+                  , , ``Shopping``
 
 
 
