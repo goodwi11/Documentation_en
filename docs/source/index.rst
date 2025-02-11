@@ -8,6 +8,7 @@ Sections
 
    view
    recommend
+   promode
    setup
    generators/wordpress
    generators/safepage
