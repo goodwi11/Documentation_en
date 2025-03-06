@@ -35,4 +35,4 @@ Choosing a Domain Name and Hosting
 
 .. important::
 
- Be aware that the success of moderation of your advertising campaign depends not only on these recommendations.
+ First of all, focus on your own experience when launching advertisins campaigns.

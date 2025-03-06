@@ -9,9 +9,12 @@ The App Store generator creates universal safe pages that pass moderation in any
 How to Generate a Safe Page
 ---------------------------
 
+.. important::
+ For best results, use an updated version of the generator: **ApplePage V2.0!**
+
 | 1. Choose an application from the `App Store <https://apps.apple.com/us/>`_ store that best fits your keywords or creative, and copy the URL link to the selected application.
 
-| 2. Select the ApplePage generator on the generation page and paste the copied link into the corresponding "Application Link" field.
+| 2. Select the **ApplePage generator** on the generation page and paste the copied link into the corresponding "Application Link" field.
 | For example: *https://apps.apple.com/us/app/telegram-messenger/id686449807*
 
 .. important::

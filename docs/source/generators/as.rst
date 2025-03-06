@@ -11,7 +11,7 @@ How to Generate a Safe Page
 
 | 1. Choose a product from the `Amazon <https://www.amazon.com>`_ store, that best fits your keywords or creative and copy the URL link to the selected product.
 
-| 2. Select the AmazonPage generator on the generation page and paste the copied link into the corresponding "Application Link" field.
+| 2. Select the **AmazonPage** generator on the generation page and paste the copied link into the corresponding "Application Link" field.
 | For example: *https://www.amazon.com/Facebook-Portal-Calling-Screen-Display/dp/B07XPDYRRJ?th=1*
 
 | 3. Enter the keywords and domain name in the corresponding fields.

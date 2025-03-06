@@ -10,7 +10,10 @@ Overview
 How to Generate a Safe Page
 ---------------------------
 
-| 1. Select the SafePage generator on the generation page and choose a theme from the provided list in the corresponding "Theme" field that best suits your keywords or creative.
+.. important::
+ For best results, use an updated version of the generator: **SafePage V2.0!**
+
+| 1. Select the **SafePage** generator on the generation page and choose a theme from the provided list in the corresponding "Theme" field that best suits your keywords or creative.
 
 | 2. Enter the keywords and domain name in the corresponding fields.
 | For example: *example keys, keys, and example.com*
