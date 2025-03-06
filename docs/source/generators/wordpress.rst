@@ -48,7 +48,7 @@ How to generate a safe page
 ----------------------------
 
 .. important::
- For best results, use an updated version of the generator: **WordPress V2.0!**
+ For best results use an updated version of the generator: **WordPress V2.0!**
 
 | 1. Select the **WordPress** generator on the generation page and choose a theme from the provided list in the corresponding "Theme" field that best suits your keywords or creative.
 

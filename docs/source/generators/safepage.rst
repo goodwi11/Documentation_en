@@ -11,7 +11,7 @@ How to Generate a Safe Page
 ---------------------------
 
 .. important::
- For best results, use an updated version of the generator: **SafePage V2.0!**
+ For best results use an updated version of the generator: **SafePage V2.0!**
 
 | 1. Select the **SafePage** generator on the generation page and choose a theme from the provided list in the corresponding "Theme" field that best suits your keywords or creative.
 

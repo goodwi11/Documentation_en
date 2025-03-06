@@ -12,7 +12,7 @@ How to Generate a Safe Page
 ---------------------------
 
 .. important::
- For best results, use an updated version of the generator: **GooglePage V2.0!**
+ For best results use an updated version of the generator: **GooglePage V2.0!**
 
 | 1. Choose an application from the `Google Play <https://play.google.com/store/games?hl=en&gl=US>`_ store that best fits your keywords or creative, and copy the URL link to the selected application.
 
