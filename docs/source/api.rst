@@ -1,5 +1,8 @@
-Connecting to the API
-=====================
+How to Work with API
+====================
+
+.. attention::
+The API access is only available with an active **Professional** or **Business** subscription!
 
 API Basics
 ----------

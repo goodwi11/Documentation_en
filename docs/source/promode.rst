@@ -3,7 +3,7 @@ Professional Mode
 
 This mode unlocked you additional features and options for working with our generators, making the process of creating safe pages more convenient and flexible. 
 
-.. important::
+.. attention::
  The mode is only available with an active **Professional** or **Business** subscription!
 
 Settings Description
