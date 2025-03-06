@@ -4,8 +4,12 @@ SafePage Generator
 Overview
 --------
 
-| This tool is a basic generator of simple multi-page news blogs based on templates and a content module developed by our team. You are offered to choose the content theme from a precompiled list. You can also select the language for automatic translation of the text you need.
-| The generated content is randomized based on a modular database consisting of hundreds of different options, and the resulting pages successfully pass moderation on all major advertising networks.
+| **SafePage Generator** is a versatile tool based on custom design and content from ChatGPT, designed for easy creation of multi-page blogs (safe pages).
+| Using a structured approach to content creation, a high quality content result is achieved. This ensures that each page created is visually appealing, thematically relevant and compliant with ads network policies.
+
+| With a selection of prepared themes, you can easily create safe pages to specific niches or advertising parameters. In addition a wide range of languages for translation will allow you to easily adapt the content to any language.
+
+| To fully meet the requirements of advertising networks, the generator uses an extensive modular database, which allows you to create diverse and unique combinations of content, regardless of the number of generated pages.
 
 How to Generate a Safe Page
 ---------------------------
@@ -18,9 +22,9 @@ How to Generate a Safe Page
 | 2. Enter the keywords and domain name in the corresponding fields.
 | For example: *example keys, keys, and example.com*
 
-| 3. Click the "Generate" button, and after some time, a preview of the page will be displayed to you.
+| 3. Click the **"Generate"** button, and after some time, a preview of the page will be displayed to you.
 | If desired, you can regenerate the safe page to get a different design and content option.
 
-| 4. Click the "Download" button to get a ZIP archive with the ready-made safe page.
+| 4. Click the **"Download"** button to get a ZIP archive with the ready-made safe page.
 
 | 5. Unpack the received ZIP archive and place it on your server or hosting.
