@@ -36,7 +36,7 @@ These settings allow you to customize the Terms of Service (TOS), Privacy Policy
      - Example
    * - 🌎 **Domain Name**
      - Inserts the domain name into TOS&Privacy pages.
-     - https://example.com или example.com
+     - `https://example.com` или `example.com`
    * - **Company Name**
      - Inserts the company name into TOS&Privacy pages. 
      - **Stratton Oakmont**
