@@ -17,14 +17,15 @@ How to Generate a Safe Page
 .. important::
  For best results use an updated version of the generator: **SafePage V2.0!**
 
-| 1. Select the **SafePage** generator on the generation page and choose a theme from the provided list in the corresponding "Theme" field that best suits your keywords or creative.
+**Step 1.** Select the **SafePage** generator on the generation page and choose a theme from the provided list in the corresponding "Theme" field that best suits your keywords or creative.
 
-| 2. Enter the keywords and domain name in the corresponding fields.
-| For example: *example keys, keys, and example.com*
+**Step 2.** Enter the keywords and domain name in the corresponding fields.
+| Keywords Example (separate by commas): `key, keyword1, keyword2`
+| Domain Example: `https://example.com` or `example.com`
 
-| 3. Click the **"Generate"** button, and after some time, a preview of the page will be displayed to you.
+**Step 3.** Click the **"Generate"** button and after some time, a preview of the page will be displayed to you.
 | If desired, you can regenerate the safe page to get a different design and content option.
 
-| 4. Click the **"Download"** button to get a ZIP archive with the ready-made safe page.
+**Step 4.** Click the **"Download"** button to get a ZIP archive with the ready-made safe page.
 
-| 5. Unpack the received ZIP archive and place it on your server or hosting.
+**Step 5.** Unpack the received ZIP archive and place it on your server or hosting.
