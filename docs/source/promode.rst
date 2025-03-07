@@ -13,15 +13,18 @@ Settings Description
 
 These settings provide greater control over how the safe page is structured and complience with advertising campgaign. 
 
-| 1. "``Safe Page Ttitle``" - setting to change the safe page title.
-| Example: *Example Title*
+| 1. 🏷️ **Safe Page Title** – allows you to set a custom title of the safe page. This is useful for branding or SEO purposes.
+| Example: `Example Safe Page`
 
-| 2. "``Keywords``" - keywords for integration into safe page, separate with commas.
-| Example: *key, keys, keywords*
+| 2. 🔑 **Keywords** - allows you to set keywords for integration into safe page. Separate with commas.
+| Example: `key, keyword1, keyword2`
 
-| 3. "``Redirection Link``" - setting that allows you to place links for redirects from buttons or forms on the safe page.
+| 3. 🔗 **Redirection Link** – allows you to set a URL that buttons or forms on the safe page will redirect to.
+| Use Case: directing users to a landing page, affiliate offer or another safe page.
 
-| 4. "``Rename index File``" - setting to change the index file name.
+| 4. 📂 **Rename Index File** – allows you to set the name of index file.
+| Default: `index.html`
+| Example: `page.html`
 
 **Legal & Compliance Settings (TOS&Privacy Settings):**
 
@@ -48,7 +51,7 @@ These settings allow you to customize the Terms of Service (TOS), Privacy Policy
      - `stratton.oak@mail.com` 
 
 .. important::
- Make sure the provided Company Name, Domain and Contact Info match your advertising campaign information to avoid compliance issues.
+ Make sure the provided **Company Name**, **Domain Name** and **Contact Info** match your advertising campaign information to avoid compliance issues.
 
 .. | 1. "``Domain Name``" - domain name to integrate into TOS&Privacy.
 .. | Example: *https://example.com* или *example.com*
