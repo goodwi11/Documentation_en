@@ -13,7 +13,7 @@ Settings Description
 **Page Customization Settings (Additional Settings)**
 -----------------------------------------------------
 
-These settings provide greater control over how the safe page is structured and complience with advertising campgaign: 
+These settings provide greater control over how the safe page is structured and complience with advertising campaign: 
 
 | 🏷️ **Safe Page Title** – allows you to set a custom title of the safe page. This is useful for branding or SEO purposes.
 | Example: `Example Safe Page`
