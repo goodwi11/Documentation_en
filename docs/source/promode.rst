@@ -27,7 +27,7 @@ These settings provide greater control over how the safe page is structured and 
 
 These settings allow you to customize the Terms of Service (TOS), Privacy Policy and Cookies pages. 
 
-.. list-table:: Additional parameters to work with API
+.. list-table::
    :header-rows: 1
    :stub-columns: 1
 
