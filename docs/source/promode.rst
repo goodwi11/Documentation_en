@@ -1,15 +1,17 @@
 Professional Mode
 =================
 
-This mode unlocked you additional features and options for working with our generators, making the process of creating safe pages more convenient and flexible. 
-
 .. attention::
  The mode is only available with an active **Professional** or **Business** subscription!
+
+Professional Mode is an advanced feature available for Professional and Business subscriptions. It unlocks additional customization options for safe page generation, allowing users to fine-tune safe page content, integrate tracking tools and improve compliance with advertising network rules.
 
 Settings Description
 --------------------
 
-**Additional Settings:** 
+**Page Customization Settings (Additional Settings):**
+
+These settings provide greater control over how the safe page is structured and complience with advertising campgaign. 
 
 | 1. "``Safe Page Ttitle``" - setting to change the safe page title.
 | Example: *Example Title*
@@ -21,7 +23,29 @@ Settings Description
 
 | 4. "``Rename index File``" - setting to change the index file name.
 
-**TOS&Privacy Settings:** 
+**Legal & Compliance Settings (TOS&Privacy Settings):**
+
+These settings allow you to customize the Terms of Service (TOS), Privacy Policy and Cookies pages. 
+
+.. list-table:: Additional parameters to work with API
+   :header-rows: 1
+   :stub-columns: 0
+
+   * - Setting
+     - Description
+     - Example
+   * - **Domain Name**
+     - Domain name to integrate into TOS&Privacy.
+     - :: https://example.com** или example.com
+   * - **Company Name**
+     - | Company name to integrate into TOS&Privacy. 
+       | Example: **Stratton Oakmont**
+   * - **Phone Number**
+     - | Phone number to integrate into TOS&Privacy.
+       | Example: **1(800)999-99**
+   * - **E-mail**
+     - | Email to integrate into TOS&Privacy. 
+       | Example: **stratton.oak@mail.com** 
 
 | 1. "``Domain Name``" - domain name to integrate into TOS&Privacy.
 | Example: *https://example.com* или *example.com*
@@ -35,14 +59,18 @@ Settings Description
 | 4. "``E-mail``" - Email to integrate into TOS&Privacy.
 | Example: *stratton.oak@mail.com*
 
-**Cloaking Integration:** 
+**Cloaking Integration:**
+
+These settings allow you to integrate cloakers and edit index file extension.
 
 | 1. "``Cloaking``" - cloaking selection for integration.
 
 | 2. "``File Extension``" - setting to select the format of the index file extension, the default is **html**.
 If Adspect cloaking is selected, the format will automatically become **php**.
 
-**Code Integration:** 
+**Custom Code & Tracking (Code Integration):**
+
+This section enables you to insert custom scripts, analytics tools or tracking pixels into their safe pages.
 
 | 1. "``Pixel``" - field to place the pixel code into safe page.
 
