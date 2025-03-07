@@ -6,7 +6,7 @@ Overview
 ========
 
 | **WordPress Generators** is a classic generator of multi-page news blogs based on CMS WordPress templates and a content module developed by our team, allowing the selection of the most relevant and trustworthy content for each generation.
-|Additionally, the safe page structure is assembled by a special algorithm that bypasses all known moderation triggers of advertising networks.
+| Additionally, the safe page structure is assembled by a special algorithm that bypasses all known moderation triggers of advertising networks.
 
 | Additional trust for safe pages created with this generator is due to the fact that websites based on CMS WordPress are widely used across the internet and in other advertising campaigns. Thus, the HTML code of safe pages is indistinguishable from the code of hundreds of thousands of real websites.
 | Advertising platforms such as Google or Meta find it difficult to distinguish a safe page from a regular site created using this CMS from the mass of WordPress sites, even with the help of machine learning. This fact, coupled with other technologies, guarantees high pass rates during the moderation of advertising campaigns.
