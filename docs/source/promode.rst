@@ -69,9 +69,9 @@ These settings allow you to customize the Terms of Service (TOS), Privacy Policy
 
 These settings allow you to integrate cloakers and edit index file extension.
 
-| 1. 🎭 **Cloaking** - allows you to select a cloaker for integration.
+| 🎭 **Cloaking** - allows you to select a cloaker for integration.
 
-| 2. 📄 **File Extension** - selects the format of index file extension for compatibility with cloaking systems.
+| 📄 **File Extension** - selects the format of index file extension for compatibility with cloaking systems.
 | Default: `.html`
 | If using Adspect Cloaking: `.php is automatically applied`
 
