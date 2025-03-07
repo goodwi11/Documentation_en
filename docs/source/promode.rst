@@ -34,18 +34,18 @@ These settings allow you to customize the Terms of Service (TOS), Privacy Policy
    * - Setting
      - Description
      - Example
-   * - **Domain Name**
-     - Domain name to integrate into TOS&Privacy.
-     - :: https://example.com** или example.com
+   * - 🌎 **Domain Name**
+     - Inserts the domain name into TOS&Privacy pages.
+     - https://example.com или example.com
    * - **Company Name**
-     - Company name to integrate into TOS&Privacy. 
-     - Example: **Stratton Oakmont**
+     - Inserts the company name into TOS&Privacy pages. 
+     - **Stratton Oakmont**
    * - **Phone Number**
-     - Phone number to integrate into TOS&Privacy.
-     - Example: **1(800)999-99**
+     - Inserts the phone number into TOS&Privacy pages.
+     - **1(800)999-99**
    * - **E-mail**
-     - Email to integrate into TOS&Privacy. 
-     - Example: **stratton.oak@mail.com** 
+     - Inserts the e-mail into TOS&Privacy pages. 
+     - **stratton.oak@mail.com** 
 
 | 1. "``Domain Name``" - domain name to integrate into TOS&Privacy.
 | Example: *https://example.com* или *example.com*
