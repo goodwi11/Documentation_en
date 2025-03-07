@@ -1,8 +1,9 @@
+==================
 SafePage Generator
 ==================
 
 Overview
---------
+========
 
 | **SafePage Generator** is a versatile tool based on custom design and content from ChatGPT, designed for easy creation of multi-page blogs (safe pages).
 | Using a structured approach to content creation, a high quality content result is achieved. This ensures that each page created is visually appealing, thematically relevant and compliant with ads network policies.
@@ -12,7 +13,7 @@ Overview
 | To fully meet the requirements of advertising networks, the generator uses an extensive modular database, which allows you to create diverse and unique combinations of content, regardless of the number of generated pages.
 
 How to Generate a Safe Page
----------------------------
+===========================
 
 .. important::
  For best results use an updated version of the generator: **SafePage V2.0!**
