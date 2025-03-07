@@ -1,3 +1,4 @@
+=================
 Professional Mode
 =================
 
@@ -7,10 +8,10 @@ Professional Mode
 Professional Mode is an advanced feature available for Professional and Business subscriptions. It unlocks additional customization options for safe page generation, allowing users to fine-tune safe page content, integrate tracking tools and improve compliance with advertising network rules.
 
 Settings Description
---------------------
+====================
 
-**Page Customization Settings (Additional Settings):**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+**Page Customization Settings (Additional Settings)**
+-----------------------------------------------------
 
 These settings provide greater control over how the safe page is structured and complience with advertising campgaign. 
 
@@ -27,8 +28,8 @@ These settings provide greater control over how the safe page is structured and 
 | Default: `index.html`
 | Example: `page.html`
 
-**Legal & Compliance Settings (TOS&Privacy Settings):**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+**Legal & Compliance Settings (TOS&Privacy Settings)**
+------------------------------------------------------
 
 These settings allow you to customize the Terms of Service (TOS), Privacy Policy and Cookies pages. 
 
@@ -67,8 +68,8 @@ These settings allow you to customize the Terms of Service (TOS), Privacy Policy
 .. | 4. "``E-mail``" - Email to integrate into TOS&Privacy.
 .. | Example: *stratton.oak@mail.com*
 
-**Cloaking Integration:**
-~~~~~~~~~~~~~~~~~~~~~~~~~
+**Cloaking Integration**
+------------------------
 
 These settings allow you to integrate cloakers and edit index file extension.
 
@@ -78,7 +79,8 @@ These settings allow you to integrate cloakers and edit index file extension.
 | Default: `.html`
 | If using Adspect Cloaking: `.php is automatically applied`
 
-**Custom Code & Tracking (Code Integration):**
+**Custom Code & Tracking (Code Integration)**
+---------------------------------------------
 
 This section enables you to insert custom scripts, analytics tools or tracking pixels into safe pages.
 
