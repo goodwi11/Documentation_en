@@ -45,13 +45,13 @@ These settings allow you to customize the Terms of Service (TOS), Privacy Policy
      - `https://example.com` or `example.com`
    * - 🏢 **Company Name**
      - Inserts the company name into TOS&Privacy pages. 
-     - `Stratton Oakmont`
+     - `Stratton Oakmont Ltd.`
    * - 📞 **Phone Number**
      - Inserts the phone number into TOS&Privacy pages.
-     - `1(800)999-99`
+     - `+1 (800) 999-9999`
    * - 📧 **E-mail**
      - Inserts the e-mail into TOS&Privacy pages. 
-     - `stratton.oak@mail.com` 
+     - `support@example.com` 
 
 .. important::
  Make sure the provided **Company Name**, **Domain Name** and **Contact Info** match your advertising campaign information to avoid compliance issues.
