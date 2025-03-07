@@ -13,16 +13,16 @@ Settings Description
 
 These settings provide greater control over how the safe page is structured and complience with advertising campgaign. 
 
-| 1. 🏷️ **Safe Page Title** – allows you to set a custom title of the safe page. This is useful for branding or SEO purposes.
+| 🏷️ **Safe Page Title** – allows you to set a custom title of the safe page. This is useful for branding or SEO purposes.
 | Example: `Example Safe Page`
 
-| 2. 🔑 **Keywords** - allows you to set keywords for integration into safe page. Separate with commas.
+| 🔑 **Keywords** - allows you to set keywords for integration into safe page. Separate with commas.
 | Example: `key, keyword1, keyword2`
 
-| 3. 🔗 **Redirection Link** – allows you to set a URL that buttons or forms on the safe page will redirect to.
+| 🔗 **Redirection Link** – allows you to set a URL that buttons or forms on the safe page will redirect to.
 | Use Case: directing users to a landing page, affiliate offer or another safe page.
 
-| 4. 📂 **Rename Index File** – allows you to set the name of index file.
+| 📂 **Rename Index File** – allows you to set the name of index file.
 | Default: `index.html`
 | Example: `page.html`
 
