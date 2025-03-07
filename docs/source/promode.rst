@@ -13,7 +13,7 @@ Settings Description
 **Page Customization Settings (Additional Settings)**
 -----------------------------------------------------
 
-These settings provide greater control over how the safe page is structured and complience with advertising campgaign. 
+These settings provide greater control over how the safe page is structured and complience with advertising campgaign: 
 
 | 🏷️ **Safe Page Title** – allows you to set a custom title of the safe page. This is useful for branding or SEO purposes.
 | Example: `Example Safe Page`
@@ -31,7 +31,7 @@ These settings provide greater control over how the safe page is structured and 
 **Legal & Compliance Settings (TOS&Privacy Settings)**
 ------------------------------------------------------
 
-These settings allow you to customize the Terms of Service (TOS), Privacy Policy and Cookies pages. 
+These settings allow you to customize the Terms of Service (TOS), Privacy Policy and Cookies pages: 
 
 .. list-table::
    :header-rows: 1
@@ -71,7 +71,7 @@ These settings allow you to customize the Terms of Service (TOS), Privacy Policy
 **Cloaking Integration**
 ------------------------
 
-These settings allow you to integrate cloakers and edit index file extension.
+These settings allow you to integrate cloakers and edit index file extension:
 
 | 🎭 **Cloaking** - allows you to select a cloaker for integration.
 
@@ -82,7 +82,7 @@ These settings allow you to integrate cloakers and edit index file extension.
 **Custom Code & Tracking (Code Integration)**
 ---------------------------------------------
 
-This section enables you to insert custom scripts, analytics tools or tracking pixels into safe pages.
+This section enables you to insert custom scripts, analytics tools or tracking pixels into safe pages:
 
 | 📊 **Pixel** - allows you to add conversion tracking pixels (e.g. Facebook Pixel, Google Ads, or custom tracking scripts).
 
