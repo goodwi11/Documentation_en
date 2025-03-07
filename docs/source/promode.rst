@@ -47,7 +47,7 @@ These settings allow you to customize the Terms of Service (TOS), Privacy Policy
      - Inserts the e-mail into TOS&Privacy pages. 
      - `stratton.oak@mail.com` 
 
-.. admonition::Best
+.. important::
  Make sure the provided Company Name, Domain and Contact Info match your advertising campaign information to avoid compliance issues.
 
 .. | 1. "``Domain Name``" - domain name to integrate into TOS&Privacy.
