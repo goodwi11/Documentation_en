@@ -47,17 +47,20 @@ These settings allow you to customize the Terms of Service (TOS), Privacy Policy
      - Inserts the e-mail into TOS&Privacy pages. 
      - `stratton.oak@mail.com` 
 
-| 1. "``Domain Name``" - domain name to integrate into TOS&Privacy.
-| Example: *https://example.com* или *example.com*
+.. admonition:: Best Practies
+ Make sure the provided Company Name, Domain and Contact Info match your advertising campaign information to avoid compliance issues.
 
-| 2. "``Company Name``" - company name to integrate into TOS&Privacy.
-| Example: *Stratton Oakmont*
+.. | 1. "``Domain Name``" - domain name to integrate into TOS&Privacy.
+.. | Example: *https://example.com* или *example.com*
 
-| 3. "``Phone Number``" - phone number to integrate into TOS&Privacy.
-| Example: *1(800)999-99*
+.. | 2. "``Company Name``" - company name to integrate into TOS&Privacy.
+.. | Example: *Stratton Oakmont*
 
-| 4. "``E-mail``" - Email to integrate into TOS&Privacy.
-| Example: *stratton.oak@mail.com*
+.. | 3. "``Phone Number``" - phone number to integrate into TOS&Privacy.
+.. | Example: *1(800)999-99*
+
+.. | 4. "``E-mail``" - Email to integrate into TOS&Privacy.
+.. | Example: *stratton.oak@mail.com*
 
 **Cloaking Integration:**
 
