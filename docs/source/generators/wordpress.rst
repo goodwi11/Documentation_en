@@ -1,16 +1,17 @@
+===================
 WordPress Generator
 ===================
 
 Overview
---------
+========
 
-This tool is a classic generator of multi-page news blogs based on CMS WordPress templates and a content module developed by our team, allowing the selection of the most relevant and trustworthy content for each generation. Additionally, the safe page structure is assembled by a special algorithm that bypasses all known moderation triggers of advertising networks.
+| **WordPress Generators** is a classic generator of multi-page news blogs based on CMS WordPress templates and a content module developed by our team, allowing the selection of the most relevant and trustworthy content for each generation.
+|Additionally, the safe page structure is assembled by a special algorithm that bypasses all known moderation triggers of advertising networks.
 
-Additional trust for safe pages created with this generator is due to the fact that websites based on CMS WordPress are widely used across the internet and in other advertising campaigns. Thus, the HTML code of safe pages is indistinguishable from the code of hundreds of thousands of real websites.
+| Additional trust for safe pages created with this generator is due to the fact that websites based on CMS WordPress are widely used across the internet and in other advertising campaigns. Thus, the HTML code of safe pages is indistinguishable from the code of hundreds of thousands of real websites.
+| Advertising platforms such as Google or Meta find it difficult to distinguish a safe page from a regular site created using this CMS from the mass of WordPress sites, even with the help of machine learning. This fact, coupled with other technologies, guarantees high pass rates during the moderation of advertising campaigns.
 
-Advertising platforms such as Google or Meta find it difficult to distinguish a safe page from a regular site created using this CMS from the mass of WordPress sites, even with the help of machine learning. This fact, coupled with other technologies, guarantees high pass rates during the moderation of advertising campaigns.
-
-The WordPress PHP version differs from the WordPress HTML version by having a full emulation of the WordPress engine, as well as an emulation of the database and admin panel.
+| The WordPress PHP version differs from the WordPress HTML version by having a full emulation of the WordPress engine, as well as an emulation of the database and admin panel.
 Since we use a modified version of CMS WordPress, which does not require installation on a server and hosting, nor working with a database, it only requires strict compliance with the system requirements, which can be found below.
 
 System Requirements for Working with WordPress PHP
@@ -44,8 +45,8 @@ Possible errors and their solutions
 The versions in the safe page files and on your server/hosting must match.
 If the problem persists or another error is received, check the server or hosting for compliance with the system requirements.
 
-How to generate a safe page
-----------------------------
+How to Generate a Safe Page
+===========================
 
 .. important::
  For best results use an updated version of the generator: **WordPress V2.0!**
