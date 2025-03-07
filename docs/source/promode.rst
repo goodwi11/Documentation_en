@@ -10,6 +10,7 @@ Settings Description
 --------------------
 
 **Page Customization Settings (Additional Settings):**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 These settings provide greater control over how the safe page is structured and complience with advertising campgaign. 
 
@@ -27,6 +28,7 @@ These settings provide greater control over how the safe page is structured and 
 | Example: `page.html`
 
 **Legal & Compliance Settings (TOS&Privacy Settings):**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 These settings allow you to customize the Terms of Service (TOS), Privacy Policy and Cookies pages. 
 
@@ -66,6 +68,7 @@ These settings allow you to customize the Terms of Service (TOS), Privacy Policy
 .. | Example: *stratton.oak@mail.com*
 
 **Cloaking Integration:**
+~~~~~~~~~~~~~~~~~~~~~~~~~
 
 These settings allow you to integrate cloakers and edit index file extension.
 
