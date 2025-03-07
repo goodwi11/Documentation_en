@@ -84,10 +84,10 @@ These settings allow you to integrate cloakers and edit index file extension.
 
 This section enables you to insert custom scripts, analytics tools or tracking pixels into safe pages.
 
-| 1. "``Pixel``" - field to place the pixel code into safe page.
+| 📊 **Pixel** - allows you to add conversion tracking pixels (e.g. Facebook Pixel, Google Ads, or custom tracking scripts).
 
-| 2. "``Code in the <head>` tag``" - field to put the code into safe page in <head>.
+| 📝 **Custom Code in <head>** – allows you to add JavaScript, meta tags or CSS inside the ``<head>`` of the safe page.
 
-| 3. "``Code to the start of <body> tag``" - setting to place the code into safe page after <body>.
+| 📍 **Custom Code to the start of <body> tag** - allows you to add code into the safe page after ``<body>``.
 
-| 4. "``Code to the end of <body> tag``" - setting to place the code into safe page before <body>.
+| 📍 **Custom Code to the end of <body> tag** - allows you to add code into the safe page before ``<body>``.
