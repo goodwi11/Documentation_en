@@ -69,14 +69,15 @@ These settings allow you to customize the Terms of Service (TOS), Privacy Policy
 
 These settings allow you to integrate cloakers and edit index file extension.
 
-| 1. "``Cloaking``" - cloaking selection for integration.
+| 1. 🎭 **Cloaking** - allows you to select a cloaker for integration.
 
-| 2. "``File Extension``" - setting to select the format of the index file extension, the default is **html**.
-If Adspect cloaking is selected, the format will automatically become **php**.
+| 2. 📄 **File Extension** - selects the format of index file extension for compatibility with cloaking systems.
+| Default: `.html`
+| If using Adspect Cloaking: `.php is automatically applied`
 
 **Custom Code & Tracking (Code Integration):**
 
-This section enables you to insert custom scripts, analytics tools or tracking pixels into their safe pages.
+This section enables you to insert custom scripts, analytics tools or tracking pixels into safe pages.
 
 | 1. "``Pixel``" - field to place the pixel code into safe page.
 
