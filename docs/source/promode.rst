@@ -29,23 +29,23 @@ These settings allow you to customize the Terms of Service (TOS), Privacy Policy
 
 .. list-table:: Additional parameters to work with API
    :header-rows: 1
-   :stub-columns: 0
+   :stub-columns: 1
 
    * - Setting
      - Description
      - Example
    * - 🌎 **Domain Name**
      - Inserts the domain name into TOS&Privacy pages.
-     - `https://example.com` или `example.com`
-   * - **Company Name**
+     - `https://example.com` or `example.com`
+   * - 🏢 **Company Name**
      - Inserts the company name into TOS&Privacy pages. 
-     - **Stratton Oakmont**
-   * - **Phone Number**
+     - `Stratton Oakmont`
+   * - 📞 **Phone Number**
      - Inserts the phone number into TOS&Privacy pages.
-     - **1(800)999-99**
-   * - **E-mail**
+     - `1(800)999-99`
+   * - 📧 **E-mail**
      - Inserts the e-mail into TOS&Privacy pages. 
-     - **stratton.oak@mail.com** 
+     - `stratton.oak@mail.com` 
 
 | 1. "``Domain Name``" - domain name to integrate into TOS&Privacy.
 | Example: *https://example.com* или *example.com*
