@@ -14,9 +14,9 @@ How to Generate a Safe Page with Adspect Cloaking Stream
 
 | **Step 2.** Skip the page with integration instructions.
 
-| **Step 3.** In the generator, select the stream for integration from the list and click the "Generate" button.
+| **Step 3.** In the generator, select the stream for integration from the list and click the **"Generate"** button.
 
-| **Step 4.** If the result suits you – click the "Download" button to get a ZIP archive with the already integrated cloak. Then you just need to "unpack" the archive and place it on your server.
+| **Step 4.** If the result suits you – click the **"Download"** button to get a ZIP archive with the already integrated cloaking. Then you just need to "unpack" the archive and place it on your server.
 
 Other Cloakers
 ==============
