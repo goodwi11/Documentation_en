@@ -10,7 +10,7 @@ One of the undeniable advantages of Comsign tools has been and remains the colla
 How to Generate a Safe Page with Adspect Cloaking Stream
 --------------------------------------------------------
 
-| **Step 1.** Create a stream, specifying the action "No action" in the safe page settings.
+| **Step 1.** Create a stream, specifying the action **"No action"** in the safe page settings.
 
 | **Step 2.** Skip the page with integration instructions.
 
