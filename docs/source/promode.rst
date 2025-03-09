@@ -15,7 +15,7 @@ Settings Description
 
 These settings provide greater control over how the safe page is structured and complience with advertising campaign: 
 
-| 🏷️ **Safe Page Title** – allows you to set a custom title of the safe page. This is useful for branding or SEO purposes.
+| 🏷️ **Safe Page Title** – allows you to set a custom title of the safe page.
 | Example: `Example Safe Page`
 
 | 🔑 **Keywords** - allows you to set keywords for integration into safe page. Separate with commas.
