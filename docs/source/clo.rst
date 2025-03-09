@@ -34,5 +34,5 @@ How to Integrate Any Cloaking with Comsign Safe Pages
 | **Step 3.**  Rename the file *index.html* to *index.php*
 
 .. note::
-     When manually integrating Adspect cloaking, you must also select **"Local file"** in the **"Action"** field in the stream settings.
+     When you manually integrating Adspect cloaking, you must also select **"Local file"** in the **"Action"** field in the stream settings.
 
