@@ -51,6 +51,7 @@ Main parameters to work with API
         | ``as`` – AmazonPage generator.
         | ``wp`` – WordPress (HTML) generator.
         | ``wp&php=1`` – WordPress (PHP) generator.
+        | ``wp_v2`` – WordPress v2.0 (HTML) generator.
    * - Yes
      - ``target``
      -  | Topic or URL to fill the safe with content.
@@ -263,7 +264,7 @@ Codes of Available Themes
 =========================
 
 .. csv-table:: 
-   :header: "Codes for WordPress and SafePage", "Codes for SafePage v2", "Codes for GooglePage v2"
+   :header: "Codes for WordPress and SafePage", "Codes for WordPress and SafePage v2", "Codes for GooglePage v2"
    :width: 15%
    :align: center
 
