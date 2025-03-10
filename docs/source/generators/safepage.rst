@@ -25,7 +25,7 @@ How to Generate a Safe Page
 | Domain Example: `https://example.com` or `example.com`
 
 | **Step 3.** Click the **"Generate"** button and after some time, a preview of the page will be displayed to you.
-| If desired, you can regenerate the safe page to get a different design and content option.
+| `If desired, you can regenerate the safe page to get a different design and content option.`
 
 **Step 4.** Click the **"Download"** button to get a ZIP archive with the ready-made safe page.
 
