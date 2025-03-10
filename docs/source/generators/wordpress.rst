@@ -14,8 +14,8 @@ Overview
 | The WordPress PHP version differs from the WordPress HTML version by having a full emulation of the WordPress engine, as well as an emulation of the database and admin panel.
 Since we use a modified version of CMS WordPress, which does not require installation on a server and hosting, nor working with a database, it only requires strict compliance with the system requirements, which can be found below.
 
-System Requirements for Working with WordPress PHP
-==================================================
+System Requirements for WordPress (PHP)
+=======================================
 
 * PHP version must be no higher than 7.4 or 7.4.X.
 
@@ -29,7 +29,7 @@ System Requirements for Working with WordPress PHP
 
  PHP safe page files must be uploaded to the server or hosting only through an FTP client and placed in the root folder.
 
-Possible errors and their solutions
+Possible Errors and Their Solutions
 ===================================
 
 | 1. **There has been a critical error on this website** - this error indicates that the server or hosting does not meet the system requirements and file placement requirements. Additionally, check all settings or contact your server or hosting support to adapt the configuration to our requirements.
@@ -51,15 +51,16 @@ How to Generate a Safe Page
 .. important::
  For best results use an updated version of the generator: **WordPress V2.0!**
 
-| 1. Select the **WordPress** generator on the generation page and choose a theme from the provided list in the corresponding "Theme" field that best suits your keywords or creative.
+**Step 1.** Select the **WordPress** generator on the generation page and choose a theme from the provided list in the corresponding "Theme" field that best suits your keywords or creative.
 
-| 2. Enter the keywords and domain name in the corresponding fields.
-| For example: *example keys, keys, and example.com*
+| **Step 2.** Enter the keywords and domain name in the corresponding fields.
+| Keywords Example (separate by commas): `key, keyword1, keyword2`
+| Domain Example: `https://example.com` or `example.com`
 
-| 3. Click the "Generate" button, and after some time, a preview of the page will be displayed to you.
+| **Step 3.** Click the **"Generate"** button, and after some time, a preview of the page will be displayed to you.
 | If desired, you can regenerate the safe page to get a different design and content option.
 
-| 4. Click the "Download" button to get a ZIP archive with the ready-made safe page.
+**Step 4.** Click the **"Download"** button to get a ZIP archive with the ready-made safe page.
 
-| 5. Unpack the received ZIP archive and place it on your server or hosting.
+**Step 5.** Unpack the received ZIP archive and place it on your server or hosting.
 
