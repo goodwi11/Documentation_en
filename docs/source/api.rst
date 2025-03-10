@@ -86,48 +86,49 @@ Additional parameters to work with API
      - Description
    * - ``keywords``
      - | Keywords to integrate into safe page, separate with commas.
-       | Example: **key,keys,keywords**
+       | Example: `key, keyword1, keyword2`
    * - ``domain``
      - | Domain name to integrate into TOS&Privacy.
-       | Example: **https://example.com** или **example.com**
+       | Example: `https://example.com` или `example.com`
    * - ``company``
      - | Company name to integrate into TOS&Privacy. 
-       | Example: **Stratton Oakmont**
+       | Example: `Stratton Oakmont Ltd.`
    * - ``phone``
      - | Phone number to integrate into TOS&Privacy.
-       | Example: **1(800)999-99**
+       | Example: `+1 (800) 999-9999`
    * - ``email``
      - | Email to integrate into TOS&Privacy. 
-       | Example: **stratton.oak@mail.com** 
+       | Example: `support@example.com`
    * - ``title``
      - | Change header of a safe page.
-       | Example: **ExampleTitle**
+       | Example: `Example Title`
    * - ``index``
      - | Change name of the index file.
-       | Example: **stratton**
+       | Default: index.html
+       | Example: page.html
    * - ``ext``
      - | Format of the index file extension, the default will be html.
-       | If Adspect flow integration is used, the format will be php.
-       | Example: **html** или **php**
+       | Example: `.html`
+       | If using Adspect Cloaking: `.php is automatically applied` 
    * - ``redirect``
      - | Parameter allows you to place links to redirect from buttons or form.
-       | Example: **https://exampleredirect.com**
+       | Example: `https://exampleredirect.com`
    * - ``redirect_form``
      - | Parameter for redirection from forms.
-       | To activate it enter this value: **1** 
+       | To activate it enter this value: `1` 
    * - ``redirect_button``
      - | Parameter for redirection from buttons.
-       | To activate it enter this value: **1**
+       | To activate it enter this value: `1`
    * - ``pixel``
      - | Parameter to place the pixel on a safe page.
    * - ``head``
      - | Parameter to place the code on a safe page in <head>.
    * - ``body_start``
      - | Parameter to place the code on a safe page after <body>.
-       | Example: **<div>example for body start<div>**
+       | Example: `<div>example for body start<div>`
    * - ``body_end``
      - | Parameter to place the code on a safe page before <body>.
-       | Example: **<div>example for body end<div></div>**
+       | Example: `<div>example for body end<div></div>`
 
 .. important:: 
  If you insert code via ``head``, ``pixel``, ``body_start`` or ``body_end`` parameters, you must use URL encoding.
