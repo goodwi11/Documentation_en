@@ -5,17 +5,17 @@ MicrosoftPage Generator
 Overview
 ========
 
-| The **MicrosoftPage Generator** is a versatile tool for creating pages based on content from Microsoft Store applications. The safe pages are specially adapted to pass ad review directly in the Bing Ads advertising network. At the same time, the design and code of the created pages are universal which allows you to use safe pages from this generator to pass ad review in other advertising networks.
+| The **MicrosoftPage Generator** is a is a versatile tool designed to create universal safe pages that easily pass ads moderation across various advertising networks. Despite its name, this generator isn't limited to promote mobile applications from the Microsoft Store; it's equally effective for a wide range of advertising campaigns across multiple verticals cause the generator crafts pages that can be used both for advertising specific applications and as standalone ads campaign in the Google Ads, Fecbook, etc.
 
-| Contrary its name it is suitable for any advertising campaigns, not just for advertising applications. The generator creates pages that can be used both for advertising Microsoft Store applications and as independent pages that can be used for any verticals and tasks. Safe pages created by the MicrosoftPage generator promote pre-approved applications, ensuring that the content on the page complies with the advertising policies and rules of any advertising networks.
+| This tool helps create safe pages by using content from approved Microsoft Store apps, making sure everything meets ad network policies in your campgains. This reduces the chances of disapproval and makes the ad review process smooth and stress-free. The generator also ensures that the pages look clean, professional and fully compliant with advertising guidelines, making them a great choice for different affiliate campaigns.
 
 How to Generate a Safe Page
----------------------------
+===========================
 
 **Step 1.** Choose an application from the `Microsoft Store <https://apps.microsoft.com/apps?hl=en-en&gl=US>`_ store that best fits your keywords or creative and copy the URL link to the selected application.
 
 | **Step 2.** Select the **MicrosoftPage** generator on the generation page and paste the copied link into the corresponding "Application Link" field.
-| For example: *https://apps.microsoft.com/detail/9nztwsqntd0s*
+| For example: `https://apps.microsoft.com/detail/9nztwsqntd0s`
 
 | **Step 3.** Enter the keywords and domain name in the corresponding fields.
 | Keywords Example (separate by commas): `key, keyword1, keyword2`
@@ -24,6 +24,6 @@ How to Generate a Safe Page
 | **Step 4.** Click the **"Generate"** button, and after some time, a preview of the page will be displayed to you.
 | If desired, you can regenerate the safe page to get a different design and content option.
 
-| **Step 5.** Click the **"Download"** button to get a ZIP archive with the ready-made safe page.
+**Step 5.** Click the **"Download"** button to get a ZIP archive with the ready-made safe page.
 
-| **Step 6.** Unpack the received ZIP archive and place it on your server or hosting.
+**Step 6.** Unpack the received ZIP archive and place it on your server or hosting.

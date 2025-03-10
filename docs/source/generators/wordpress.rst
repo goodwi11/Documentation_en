@@ -5,7 +5,7 @@ WordPress Generator
 Overview
 ========
 
-| **WordPress Generators** is a classic generator of multi-page news blogs based on CMS WordPress templates and a content module developed by our team, allowing the selection of the most relevant and trustworthy content for each generation.
+| The **WordPress Generators** is a classic generator of multi-page news blogs based on CMS WordPress templates and a content module developed by our team, allowing the selection of the most relevant and trustworthy content for each generation.
 | Additionally, the safe page structure is assembled by a special algorithm that bypasses all known moderation triggers of advertising networks.
 
 | Additional trust for safe pages created with this generator is due to the fact that websites based on CMS WordPress are widely used across the internet and in other advertising campaigns. Thus, the HTML code of safe pages is indistinguishable from the code of hundreds of thousands of real websites.
@@ -15,7 +15,7 @@ Overview
 Since we use a modified version of CMS WordPress, which does not require installation on a server and hosting, nor working with a database, it only requires strict compliance with the system requirements, which can be found below.
 
 System Requirements for Working with WordPress PHP
---------------------------------------------------
+==================================================
 
 * PHP version must be no higher than 7.4 or 7.4.X.
 
@@ -30,17 +30,18 @@ System Requirements for Working with WordPress PHP
  PHP safe page files must be uploaded to the server or hosting only through an FTP client and placed in the root folder.
 
 Possible errors and their solutions
------------------------------------
+===================================
+
 | 1. **There has been a critical error on this website** - this error indicates that the server or hosting does not meet the system requirements and file placement requirements. Additionally, check all settings or contact your server or hosting support to adapt the configuration to our requirements.
 
 | 2. **Error establishing a database connection (this error does not exclude problems with system requirements).**
 | If this error occurs, check the following:
 
- | *In the zip file -> /wp-include/version.php -> $wp_db_version = 51917*.
- | *In cpanel -> phpmyadmin -> table wp_options -> db_version*.
+| `In the zip file -> /wp-include/version.php -> $wp_db_version = 51917`
+| `In cpanel -> phpmyadmin -> table wp_options -> db_version`
 
- | *In the zip file -> /wp-include/version.php -> $wp_version = 6.0*.
- | *In cpanel -> phpmyadmin -> table wp_options -> wp_version*.
+| `In the zip file -> /wp-include/version.php -> $wp_version = 6.0`
+| `In cpanel -> phpmyadmin -> table wp_options -> wp_version`
 
 The versions in the safe page files and on your server/hosting must match.
 If the problem persists or another error is received, check the server or hosting for compliance with the system requirements.
