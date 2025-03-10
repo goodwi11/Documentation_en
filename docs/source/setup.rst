@@ -122,7 +122,7 @@ FTP access is available for all hosting panels. In this instruction we will cons
 
 **Step 8.** Done, if done correctly the uploaded safe page will be displayed when you navigate to your domain.
 
-Setting Up a Safe Page via SSH network protocol
+Setting Up a Safe Page via SSH Network Protocol
 ===============================================
 
 The most complicated way is to place the safe page on the server via the SSH (Secure SHell) network protocol. 
