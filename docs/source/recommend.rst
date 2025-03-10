@@ -1,10 +1,11 @@
+===============
 Recommendations
 ===============
 
 General recommendations for working with our tools, which are universal for most of our users. We strongly recommend following them to achieve the best results with Comsign.
 
 Working with Generators
------------------------
+=======================
 
 1. **Always use** a theme or a link to the app that is most relevant to the subject of your ads creative.
 
@@ -19,7 +20,7 @@ Working with Generators
 6. **Always check** the generated safe page from WordPress generator for images that contain prohibited or questionable material. Although we regularly monitor the quality of the content used, due to the nature of current events in the world, such images sometimes appear, so be vigilant.
 
 Choosing a Domain Name and Hosting
-----------------------------------
+==================================
 
 1. **Do not use** domain names in cheap zones, such as .site, .club, .world, etc., because they attract increased attention from moderators as well as antivirus and scoring companies. In fact, such domain names are at risk from the moment they are registered. Use only domain zones like .org, .net, and .com, in order of preference.
 
