@@ -34,8 +34,7 @@ Possible errors and their solutions
 
 | 1. **There has been a critical error on this website** - this error indicates that the server or hosting does not meet the system requirements and file placement requirements. Additionally, check all settings or contact your server or hosting support to adapt the configuration to our requirements.
 
-| 2. **Error establishing a database connection (this error does not exclude problems with system requirements).**
-| If this error occurs, check the following:
+| 2. **Error establishing a database connection (this error does not exclude problems with system requirements)** - if this error occurs, check the following:
 
 | `In the zip file -> /wp-include/version.php -> $wp_db_version = 51917`
 | `In cpanel -> phpmyadmin -> table wp_options -> db_version`
