@@ -5,7 +5,7 @@ Overview
 What is Comsign
 ===============
 
-| `Comsign <https://www.comsign.io>`_ is an easy–to-use tool that allows you to quickly create full-fledged and high-quality websites that are passed ad review in any advertising networks (ex. Facebook, Google Maps, Bing Ads, Quora, X (Twitter), etc.), and will also help to extend the life of your advertising campaign.
+| `Comsign <https://www.comsign.io>`_ is an easy–to-use tool that allows you to quickly create full-fledged and high-quality websites that are passed ad review in any advertising networks (ex. Facebook, Google Ads, Bing Ads, Quora, X (Twitter), etc.), and will also help to extend the life of your advertising campaign.
 
 | Safe page generation algorithms, their content and visual design are designed to meet all the requirements and conditions for successful moderation as much as possible. We were based on an analysis of the moderation policy, the factors that most affect the success of the passage. Thanks to this, we were able to precisely develop and configure modules for content filtering, DOM tree construction and unicalization, which help minimize a increased attention from moderation.
 
