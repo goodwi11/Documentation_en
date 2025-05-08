@@ -233,7 +233,7 @@ Spanish                           ``es_ES``
 Italian                           ``it_IT``
 Irish                             ``ga_IE``
 Kazakh                            ``kk_KZ``
-Chinese                           ``zh_CH``
+Chinese                           ``cn_CH``
 Korean                            ``ko_KR``
 Latvian                           ``lv_LV``
 Lithuanian                        ``lt_LT``
