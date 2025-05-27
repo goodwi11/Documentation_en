@@ -227,8 +227,9 @@ Dutch                             ``nl_NL``
 Greek                             ``el_GR``
 Georgian                          ``ka_GE``
 Danish                            ``da_DK``
-Hebrew                            ``he_IL``
+Hebrew                            ``iw_IL``
 Icelandic                         ``is_IS``
+Indonesian                        ``id_ID``
 Spanish                           ``es_ES``
 Italian                           ``it_IT``
 Irish                             ``ga_IE``
