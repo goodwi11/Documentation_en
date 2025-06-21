@@ -42,15 +42,11 @@ Main parameters to work with API
    * - Yes
      - ``product``
      -  | Generator selection:
-        | ``sf`` – SafePage generator.
         | ``sf_v2`` – SafePage v2.0 generator.
-        | ``gp`` – GooglePage generator.
         | ``gp_v2`` – GooglePage v2.0 generator.
         | ``ms`` – MicrosoftPage generator.
         | ``ap`` – ApplePage generator.
         | ``as`` – AmazonPage generator.
-        | ``wp`` – WordPress (HTML) generator.
-        | ``wp&php=1`` – WordPress (PHP) generator.
         | ``wp_v2`` – WordPress v2.0 (HTML) generator.
         | ``wp_v2&php=1`` – WordPress v2.0 (PHP) generator.
    * - Yes
@@ -137,7 +133,7 @@ Additional parameters to work with API
 
 Example of a relevant URL to work with the API::
 
- https://api.comsign.io/v2?aid=2e2bbf52-adnc-5819-963c-8e0d48b26e9&keywords=example,keys&domain=example.com&lang=en_US&product=wp&sid=3eb2a9d3-9k93-3etc-ci88-ac1f6f92a854&target=food&zip=true
+ https://api.comsign.io/v2?aid=2e2bbf52-adnc-5819-963c-8e0d48b26e9&keywords=example,keys&domain=example.com&lang=en_US&product=wp_v2&sid=3eb2a9d3-9k93-3etc-ci88-ac1f6f92a854&target=food&zip=true
 
 Codes of Available Languages
 ============================
@@ -266,48 +262,48 @@ Codes of Available Themes
 =========================
 
 .. csv-table:: 
-   :header: "Codes for WordPress and SafePage", "Codes for WordPress v2 and SafePage v2", "Codes for GooglePage v2"
+   :header: Codes for WordPress v2 and SafePage v2", "Codes for GooglePage v2"
    :width: 15%
    :align: center
 
-   "``beauty``", ``travel``, ``Auto_Vehicles``
-   "``travel``", ``sport``, ``Business``
-   "``music``", ``beauty``, ``Video_Players``
-   "``food``", ``finance``, ``Food_Drink``
-   "``science``", ``dating``, ``House_Home``
-   "``gaming``", ``games``, ``Health_Fitness``
-   "``energy``", ``cars``, ``Dating``
-   "``news``", ``technologies``, ``Game``
-   "``sport``", ``fashion``, ``Game_Arcade``
-   "``tech``", ``music``, ``Game_Casual``
-   "``world``", ``activities``, ``Game_Card``
-   "``finance``", ``entertainment``, ``Game_Music``
-   "``politics``", ``health``, ``Game_Board``
-   "``business``", ``food``, ``Game_Puzzle``
-   "``economics``", ``education``, ``Game_Adventure``
-   "``entertainment``", ``estate``, ``Game_Sports``
-                  , ``fitness``, ``Game_Action``
-                  , ``commerce``, ``Tools``
-                  , , ``Art_Design``
-                  , , ``Maps_Navigation``
-                  , , ``Comics``
-                  , , ``Beauty``
-                  , , ``Medical``
-                  , , ``Events``
-                  , , ``Music_Audio``
-                  , , ``News_Magazines``
-                  , , ``Education``
-                  , , ``Personalization``
-                  , , ``Weather``
-                  , , ``Productivity``
-                  , , ``Travel_Local``
-                  , , ``Entertainment``
-                  , , ``Communication``
-                  , , ``Social``
-                  , , ``Sports``
-                  , , ``Finance``
-                  , , ``Photography``
-                  , , ``Shopping``
+   "``travel``", ``Auto_Vehicles``
+   "``sport``", ``Business``
+   "``beauty``", ``Video_Players``
+   "``finance``", ``Food_Drink``
+   "``dating``", ``House_Home``
+   "``games``", ``Health_Fitness``
+   "``cars``", ``Dating``
+   "``technologies``", ``Game``
+   "``fashion``", ``Game_Arcade``
+   "``music``", ``Game_Casual``
+   "``activities``", ``Game_Card``
+   "``entertainment``", ``Game_Music``
+   "``health``", ``Game_Board``
+   "``food``", ``Game_Puzzle``
+   "``education``", ``Game_Adventure``
+   "``estate``", ``Game_Sports``
+   "``fitness``", ``Game_Action``
+   "``commerce``", ``Tools``
+                  , ``Art_Design``
+                  , ``Maps_Navigation``
+                  , ``Comics``
+                  , ``Beauty``
+                  , ``Medical``
+                  , ``Events``
+                  , ``Music_Audio``
+                  , ``News_Magazines``
+                  , ``Education``
+                  , ``Personalization``
+                  , ``Weather``
+                  , ``Productivity``
+                  , ``Travel_Local``
+                  , ``Entertainment``
+                  , ``Communication``
+                  , ``Social``
+                  , ``Sports``
+                  , ``Finance``
+                  , ``Photography``
+                  , ``Shopping``
 
 
 
