@@ -262,7 +262,7 @@ Codes of Available Themes
 =========================
 
 .. csv-table:: 
-   :header: Codes for WordPress v2 and SafePage v2", "Codes for GooglePage v2"
+   :header: "Codes for WordPress v2 and SafePage v2", "Codes for GooglePage v2"
    :width: 15%
    :align: center
 
