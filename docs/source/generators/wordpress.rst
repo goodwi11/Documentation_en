@@ -48,6 +48,11 @@ Possible Errors and Their Solutions
 The versions in the safe page files and on your server/hosting must match.
 If the problem persists or another error is received, check the server or hosting for compliance with the system requirements.
 
+WordPress CMS
+=============
+
+This version of the generator is a full version of the CMS system, including all features and using as a database MySQL. This version supports installation of custom themes and plugins, allowing you to flexibly expand functionality and customize the appearance of the safe page.
+
 How to Generate a Safe Page
 ===========================
 
