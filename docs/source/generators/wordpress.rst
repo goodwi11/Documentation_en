@@ -48,9 +48,6 @@ If the problem persists or another error is received, check the server or hostin
 How to Generate a Safe Page
 ===========================
 
-.. important::
- For best results use an updated version of the generator: **WordPress V2.0!**
-
 **Step 1.** Select the **WordPress** generator on the generation page and choose a theme from the provided list in the corresponding "Theme" field that best suits your keywords or creative.
 
 | **Step 2.** Enter the keywords and domain name in the corresponding fields.

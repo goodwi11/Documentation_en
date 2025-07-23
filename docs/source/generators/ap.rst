@@ -12,9 +12,6 @@ Overview
 How to Generate a Safe Page
 ===========================
 
-.. important::
- For best results use an updated version of the generator: **ApplePage V2.0!**
-
 **Step 1.** Choose an application from the `App Store <https://apps.apple.com/us/>`_ store that best fits your keywords or creative and copy the URL link to the selected application.
 
 | **Step 2.** Select the **ApplePage** generator on the generation page and paste the copied link into the corresponding "Application Link" field.

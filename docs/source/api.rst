@@ -42,13 +42,14 @@ Main parameters to work with API
    * - Yes
      - ``product``
      -  | Generator selection:
-        | ``sf_v2`` – SafePage v2.0 generator.
-        | ``gp_v2`` – GooglePage v2.0 generator.
+        | ``sf`` – SafePage generator.
+        | ``gp`` – GooglePage generator.
         | ``ms`` – MicrosoftPage generator.
         | ``ap`` – ApplePage generator.
         | ``as`` – AmazonPage generator.
-        | ``wp_v2`` – WordPress v2.0 (HTML) generator.
-        | ``wp_v2&php=1`` – WordPress v2.0 (PHP) generator.
+        | ``wp`` – WordPress (HTML) generator.
+        | ``wp&php=1`` – WordPress PHP generator.
+        | ``wp_cms`` – WordPress CMS generator.
    * - Yes
      - ``target``
      -  | Topic or URL to fill the safe with content.
@@ -262,7 +263,7 @@ Codes of Available Themes
 =========================
 
 .. csv-table:: 
-   :header: "Codes for WordPress v2 and SafePage v2", "Codes for GooglePage v2"
+   :header: "Codes for WordPress and SafePage", "Codes for GooglePage"
    :width: 15%
    :align: center
 
