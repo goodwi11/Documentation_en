@@ -48,7 +48,7 @@ Main parameters to work with API
         | ``ap`` – ApplePage generator.
         | ``as`` – AmazonPage generator.
         | ``wp`` – WordPress (HTML) generator.
-        | ``wp&php=1`` – WordPress PHP generator.
+        | ``wp&php=1`` – WordPress (PHP) generator.
         | ``wp_cms`` – WordPress CMS generator.
    * - Yes
      - ``target``
