@@ -11,11 +11,14 @@ Overview
 | Additional trust for safe pages created with this generator is due to the fact that websites based on CMS WordPress are widely used across the internet and in other advertising campaigns. Thus, the HTML code of safe pages is indistinguishable from the code of hundreds of thousands of real websites.
 | Advertising platforms such as Google or Meta find it difficult to distinguish a safe page from a regular site created using this CMS from the mass of WordPress sites, even with the help of machine learning. This fact, coupled with other technologies, guarantees high pass rates during the moderation of advertising campaigns.
 
+WordPress PHP
+=============
+
 | The WordPress PHP version differs from the WordPress HTML version by having a full emulation of the WordPress engine, as well as an emulation of the database and admin panel.
 Since we use a modified version of CMS WordPress, which does not require installation on a server and hosting, nor working with a database, it only requires strict compliance with the system requirements, which can be found below.
 
 System Requirements for WordPress (PHP)
-=======================================
+---------------------------------------
 
 * PHP version must be no higher than 7.4 or 7.4.X.
 
@@ -30,7 +33,7 @@ System Requirements for WordPress (PHP)
  PHP safe page files must be uploaded to the server or hosting only through an FTP client and placed in the root folder.
 
 Possible Errors and Their Solutions
-===================================
+-----------------------------------
 
 | 1. **There has been a critical error on this website** - this error indicates that the server or hosting does not meet the system requirements and file placement requirements. Additionally, check all settings or contact your server or hosting support to adapt the configuration to our requirements.
 
