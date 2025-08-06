@@ -72,7 +72,7 @@ Login Information for the Admin Panel
 .. csv-table:: 
    :header: "Filed", "Value"
    :width: 10
-   :align: "center"
+   :align: center
 
    "**User**", `admin`
    "**Password**", `0!1#EHxp&K5{x9$%`
