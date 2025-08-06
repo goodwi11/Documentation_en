@@ -70,7 +70,7 @@ Login Information for the Admin Panel
 -------------------------------------
 
 .. csv-table:: 
-   :header: "Filed", "Value"
+   :header: "Field", "Value"
    :width: 10
    :align: center
 
