@@ -17,16 +17,16 @@ WordPress PHP
 | The WordPress PHP version differs from the WordPress HTML version by having a full emulation of the WordPress engine, as well as an emulation of the database and admin panel.
 Since we use a modified version of CMS WordPress, which does not require installation on a server and hosting, nor working with a database, it only requires strict compliance with the system requirements, which can be found below.
 
-System Requirements for WordPress (PHP)
----------------------------------------
+System Requirements for WordPress PHP
+-------------------------------------
 
-* PHP version must be no higher than 7.4 or 7.4.X.
+* **PHP** version must be no higher than 7.4 or 7.4.X.
 
-* Installed NGINX or Apache with the "mod_rewrite" module (when using Apache, it is recommended to switch PHP to FastCGI mode).
+* Installed **NGINX** or **Apache** with the "mod_rewrite" module (when using Apache, it is recommended to switch PHP to FastCGI mode).
 
-* Installed PHP Data Objects (PDO) extension.
+* Installed **PHP Data Objects (PDO)** extension.
 
-* Installed PDO_SQLITE driver.
+* Installed **PDO_SQLITE** driver.
 
 .. attention::
 
@@ -51,7 +51,32 @@ If the problem persists or another error is received, check the server or hostin
 WordPress CMS
 =============
 
-This version of the generator is a full version of the CMS system, including all features and using as a database MySQL. This version supports installation of custom themes and plugins, allowing you to flexibly expand functionality and customize the appearance of the safe page.
+This version of the WordPress generator is a full version of the CMS system, including all features and using as a database MySQL. This version supports installation of custom themes and plugins, allowing you to flexibly expand functionality and customize the appearance of the safe page.
+
+System Requirements for WordPress CMS
+-------------------------------------
+
+* The **PHP** version must be 7.4, 7.4.X, or higher.
+
+* A **MySQL** database version 5.7 or higher or a **MariaDB** database version 10.3 or higher.
+
+* An active **HTTPS** protocol (SSL or TLS certificate).
+
+* Enabled **PHP extensions**: MySQLi, curl, GD or ImageMagick, Multibyte String, JSON, XML.
+
+* The PHP **memory_limit** must be 64 MB or higher.
+
+Login Information for the Admin Panel
+-------------------------------------
+
+.. csv-table:: 
+   :header: "Filed", "Value"
+   :width: 10
+   :align: "center"
+
+   "**User**", `admin`
+   "**Password**", `0!1#EHxp&K5{x9$%`
+   "**Email**", `admin@wordpress.com`
 
 How to Generate a Safe Page
 ===========================
