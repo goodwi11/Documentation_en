@@ -78,6 +78,133 @@ Login Information for the Admin Panel
    "**Password**", `0!1#EHxp&K5{x9$%`
    "**Email**", `admin@wordpress.com`
 
+If necessary you can change the login details for the admin panel using the command below:
+::
+ wp user --path="${SITE_PATH}" update 1 --user_login=new_login
+ wp user --path="${SITE_PATH}" update admin --user_email=new@email.com
+ wp user --path="${SITE_PATH}" update admin --user_pass=new_password
+
+.. note::
+ `${SITE_PATH}` - path where the WordPress file is located. For example: /way/to/wordpress/folder
+
+Instruction on How to Host and Activate WordPress CMS on the Server via SSH Protocol
+------------------------------------------------------------------------------------
+
+.. note::
+ Example configurations will be described under NGINX/OpenResty.
+
+**Шаг 1.** Install the *wp_cli* tool for WordPress to work correctly:
+::
+ curl -O https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar
+ php wp-cli.phar --info
+ chmod +x wp-cli.phar
+ sudo mv wp-cli.phar /usr/local/bin/wp
+
+**1.1.** Install the other libraries and modules for WordPress to work correctly:
+::
+ sudo apt update
+ sudo apt install unzip
+ sudo apt install php-fpm php-mysql php-curl php-intl php-imagick php-bcmath -y
+ sudo apt install mysql-server
+ sudo systemctl enable mysql
+ sudo systemctl start mysql
+
+.. note::
+ Another database can be used instead of MySQL Server: MySQL, Percona or MariaDB.
+
+**1.2.** Give NGINX/OpenResty permission to work with *php-fpm* files:
+::
+ sudo usermod -aG www-data nginx
+ sudo systemctl restart nginx
+
+**Шаг 2.** You need to configure NGINX/OpenResty on the server.
+
+Example configuration:
+::
+ map $http_x_forwarded_proto $fastcgi_https {
+    default off;
+    https   on;
+ }
+
+ server {
+    listen 80;
+    listen [::]:80;
+    server_name example.com www.example.com;
+
+    root /way/to/wordpress/folder;
+    index index.php index.html;
+
+    client_max_body_size 64M;
+
+    location / {
+        try_files $uri $uri/ /index.php?$args;
+    }
+
+    location ~ \.php$ {
+        include /usr/local/openresty/nginx/conf/fastcgi_params;
+        fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
+        fastcgi_param HTTPS $fastcgi_https;
+        fastcgi_pass unix:/var/run/php/fpm.sock;
+        fastcgi_buffers 16 16k;
+        fastcgi_buffer_size 32k;
+    }
+
+    location ~* /(?:\.ht|wp-config\.php|readme\.html|license\.txt) { deny all; }
+
+    location ~* \.(?:css|js|jpg|jpeg|png|gif|ico|svg|webp|woff2?|ttf|eot)$ {
+        access_log off;
+        expires 30d;
+        add_header Cache-Control "public, max-age=2592000, immutable";
+        try_files $uri =404;
+    }
+ }
+
+**2.1.** You need to create a reference so that NGINX starts listening on the port:
+::
+ ln -s /etc/nginx/sites-available/tiendaortiz /etc/nginx/sites-enabled/
+ sudo nginx -t
+ sudo systemctl reload nginx
+
+**Шаг 3.** Unzip the folder with the WordPress safe page.
+
+Extract to current folder:
+::
+ unzip archive.zip
+
+Extract to the specified directory:
+::
+ unzip archive.zip -d /way/to/folder
+
+Command for automatic WordPress configuration:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**Шаг 4.** Download and unzip :download:`deploy.sh <../_static/deploy.sh>` file:
+::
+ chmod +x deploy.sh
+ ./deploy.sh
+
+Commands for manual WordPress configuration:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. important::
+ | Replace ${} with the appropriate data.
+ | `${WP_PORT}` - the port where WordPress will be located. For example: 8080
+ | `${SITE_PATH}` - the path where the WordPress file is located. For example: /way/to/wordpress/folder
+ | `${SITE_URL}` - the URL of the domain where WordPress will be hosted. For example: https://example.com
+ | `${SQL_FILE}` - the name of the database dump file from the WordPress archive. For example: db.sql
+
+**Шаг 4.** Replace the port in *dump* with the port where WordPress will run:
+::
+ sed -i -E "s#(http://[^:]+:)[0-9]+#\1${WP_PORT}#g" "${SQL_FILE}"
+
+**Шаг 5.** Import *db.sql* and create *wpuser* in the database.
+
+**5.1.** Enter the data (DB_NAME, DB_USER, DB_PASSWORD) for working with the database in the *wp-config.php* file.
+
+**Шаг 6.** For *https* to work correctly replace the path to WordPress:
+::
+ wp search-replace "http://127.0.0.1:${WP_PORT}" "${SITE_URL}" --skip-columns=guid --path="${SITE_PATH}" --allow-root
+
 How to Generate a Safe Page
 ===========================
 
