@@ -93,7 +93,7 @@ Instruction on How to Host and Activate WordPress CMS on the Server via SSH Prot
 .. note::
  Example configurations will be described under NGINX/OpenResty.
 
-**Шаг 1.** Install the *wp_cli* tool for WordPress to work correctly:
+**Step 1.** Install the *wp_cli* tool for WordPress to work correctly:
 ::
  curl -O https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar
  php wp-cli.phar --info
@@ -117,7 +117,7 @@ Instruction on How to Host and Activate WordPress CMS on the Server via SSH Prot
  sudo usermod -aG www-data nginx
  sudo systemctl restart nginx
 
-**Шаг 2.** You need to configure NGINX/OpenResty on the server.
+**Step 2.** You need to configure NGINX/OpenResty on the server.
 
 Example configuration:
 ::
@@ -165,7 +165,7 @@ Example configuration:
  sudo nginx -t
  sudo systemctl reload nginx
 
-**Шаг 3.** Unzip the folder with the WordPress safe page.
+**Step 3.** Unzip the folder with the WordPress safe page.
 
 Extract to current folder:
 ::
@@ -178,7 +178,7 @@ Extract to the specified directory:
 Command for automatic WordPress configuration:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Шаг 4.** Download and unzip :download:`deploy.sh <../_static/deploy.sh>` file:
+**Step 4.** Download and unzip :download:`deploy.sh <../_static/deploy.sh>` file:
 ::
  chmod +x deploy.sh
  ./deploy.sh
@@ -193,15 +193,15 @@ Commands for manual WordPress configuration:
  | `${SITE_URL}` - the URL of the domain where WordPress will be hosted. For example: https://example.com
  | `${SQL_FILE}` - the name of the database dump file from the WordPress archive. For example: db.sql
 
-**Шаг 4.** Replace the port in *dump* with the port where WordPress will run:
+**Step 4.** Replace the port in *dump* with the port where WordPress will run:
 ::
  sed -i -E "s#(http://[^:]+:)[0-9]+#\1${WP_PORT}#g" "${SQL_FILE}"
 
-**Шаг 5.** Import *db.sql* and create *wpuser* in the database.
+**Step 5.** Import *db.sql* and create *wpuser* in the database.
 
 **5.1.** Enter the data (DB_NAME, DB_USER, DB_PASSWORD) for working with the database in the *wp-config.php* file.
 
-**Шаг 6.** For *https* to work correctly replace the path to WordPress:
+**Step 6.** For *https* to work correctly replace the path to WordPress:
 ::
  wp search-replace "http://127.0.0.1:${WP_PORT}" "${SITE_URL}" --skip-columns=guid --path="${SITE_PATH}" --allow-root
 
