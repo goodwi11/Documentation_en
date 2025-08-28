@@ -178,7 +178,7 @@ Extract to the specified directory:
 Command for automatic WordPress configuration:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Step 4.** Download and unzip :download:`deploy.sh <../_static/deploy.sh>` file:
+**Step 4.** Download and activate :download:`deploy.sh <../_static/deploy.sh>` file:
 ::
  chmod +x deploy.sh
  ./deploy.sh
@@ -193,7 +193,7 @@ Commands for manual WordPress configuration:
  | `${SITE_URL}` - the URL of the domain where WordPress will be hosted. For example: https://example.com
  | `${SQL_FILE}` - the name of the database dump file from the WordPress archive. For example: db.sql
 
-**Step 4.** Replace the port in *dump* with the port where WordPress will run:
+**Step 4.** Replace the port in *db.sql* with the port where WordPress will run:
 ::
  sed -i -E "s#(http://[^:]+:)[0-9]+#\1${WP_PORT}#g" "${SQL_FILE}"
 
