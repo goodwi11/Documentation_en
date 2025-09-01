@@ -13,22 +13,19 @@ Overview
 How to Generate a Safe Page
 ===========================
 
-**Step 1.** Choose an application from the `Google Play <https://play.google.com/store/games?hl=en&gl=US>`_ store that best fits your keywords or creative, and copy the URL link to the selected application.
-
-| **Step 2.** Select the **GooglePage** generator on the generation page and paste the copied link into the corresponding "Application Link" field.
-| For example: `https://play.google.com/store/apps/details?id=org.telegram.messenger`
+| **Step 1.** Select the **GooglePage** generator on the generation page and and choose a theme from the provided list in the corresponding "Theme" field that best suits your keywords or creative.
 
 .. note::
- When you using the GooglePage v2 generator, just choose one of the theme with already selected URLs.
+ In the professional mode you can use any application (application link) from the `Google Play <https://play.google.com/store/games?hl=en&gl=US>`_ store to generate a safe page.
 
-| **Step 3.** Enter the keywords and domain name in the corresponding fields.
+| **Step 2.** Enter the keywords and domain name in the corresponding fields.
 | Keywords Example (separate by commas): `key, keyword1, keyword2`
 | Domain Example: `https://example.com` or `example.com`
 
-| **Step 4.** Click the **"Generate"** button, and after some time, a preview of the page will be displayed to you.
+| **Step 3.** Click the **"Generate"** button, and after some time, a preview of the page will be displayed to you.
 | `If desired, you can regenerate the safe page to get a different design and content option.`
 
-**Step 5.** Click the **"Download"** button to get a ZIP archive with the ready-made safe page.
+**Step 4.** Click the **"Download"** button to get a ZIP archive with the ready-made safe page.
 
-**Step 6.** Unpack the received ZIP archive and place it on your server or hosting.
+**Step 5.** Unpack the received ZIP archive and place it on your server or hosting.
 
