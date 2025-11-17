@@ -3,7 +3,7 @@ WordPress Generator
 ===================
 
 .. note::
- The mode is only available with an active **BASIC**, **PRO** or **BUSINESS** subscription.
+ The generator is only available with an active **BASIC**, **PRO** or **BUSINESS** subscription.
 
 Overview
 ========

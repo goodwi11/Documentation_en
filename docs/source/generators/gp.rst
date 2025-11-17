@@ -3,7 +3,7 @@ GooglePage Generator
 ====================
 
 .. note::
- The mode is only available with an active **PRO** or **BUSINESS** subscription.
+ The generator is only available with an active **PRO** or **BUSINESS** subscription.
 
 Overview
 ========
