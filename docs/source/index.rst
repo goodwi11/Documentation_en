@@ -16,6 +16,7 @@ Sections
    generators/ap
    generators/ms
    generators/as
+   tools
    api
    clo
    refsystem

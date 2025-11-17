@@ -2,8 +2,8 @@
 Professional Mode
 =================
 
-.. attention::
- The mode is only available with an active **Professional** or **Business** subscription!
+.. note::
+ The mode is only available with an active **PRO** or **BUSINESS** subscription.
 
 Professional Mode is an advanced feature available for Professional and Business subscriptions. It unlocks additional customization options for safe page generation, allowing users to fine-tune safe page content, integrate tracking tools and improve compliance with advertising network rules.
 
