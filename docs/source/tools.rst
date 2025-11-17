@@ -3,7 +3,7 @@ Tools
 =====
 
 .. note::
-Tools are available to all users with an active **BASIC**, **PRO** or **BUSINESS** subscription.
+ Tools are available to all users with an active **BASIC**, **PRO** or **BUSINESS** subscription.
 
 This section contains a set of utilities designed to simplify workflows when creating and preparing content for affiliate marketing tasks. 
 Each tool serves its own purpose — from generating data to uniquizing images and videos.
