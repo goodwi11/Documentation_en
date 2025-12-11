@@ -4,11 +4,12 @@
 # -- Project information
 
 project = 'Comsign'
-copyright = 'Comsign © 2020–2024.'
+copyright = 'Comsign © 2020–2025.'
 
 release = '1.0'
 version = '1.5.1'
 html_title = 'Comsign Documentation'
+html_permalinks = False
 
 # -- General configuration
 
