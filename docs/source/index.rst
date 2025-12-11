@@ -1,3 +1,6 @@
+.. meta::
+   :description lang=en: Comsign Documentation
+
 Comsign Documentation
 =====================
 
