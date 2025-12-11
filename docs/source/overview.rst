@@ -2,6 +2,8 @@
 Overview
 ========
 
+.. _what_is_comsign:
+
 What is Comsign
 ===============
 
