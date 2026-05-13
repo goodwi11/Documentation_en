@@ -10,7 +10,7 @@ Overview
 | The generator is suitable for creating pages for different niches, approaches, and advertising scenarios when a more flexible setup of the structure, meaning, and content presentation is required. Thanks to the text prompt, you can define the general direction of the page, the desired content format, and the key focus points of the future safe page.
 
 How to generate a safe page
----------------------------
+===========================
 
 .. note::
 
